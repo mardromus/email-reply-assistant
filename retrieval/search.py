@@ -97,6 +97,7 @@ def retrieve_similar(
     query: str,
     top_k: int | None = None,
     category_filter: str | None = None,
+    vector_store: EmailVectorStore | None = None,
 ) -> list[RetrievedEmail]:
     """Retrieve the most similar stored emails for a given query.
 
@@ -120,7 +121,7 @@ def retrieve_similar(
     settings = get_settings()
     k = top_k if top_k is not None else settings.retrieval_top_k
 
-    store = _get_store()
+    store = vector_store if vector_store is not None else _get_store()
 
     # Build optional metadata filter
     where: dict[str, Any] | None = None

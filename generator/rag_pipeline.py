@@ -152,7 +152,7 @@ class RAGPipeline:
                 query=email,
                 vector_store=self._vector_store,
                 top_k=k,
-                category=category,
+                category_filter=category,
             )
             logger.info("Retrieved %d similar examples for query.", len(results))
             return results  # type: ignore[return-value]
