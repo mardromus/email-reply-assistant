@@ -1,0 +1,2923 @@
+{
+  "summary": {
+    "total_samples": 50,
+    "avg_score": 65.45,
+    "median_score": 70.42,
+    "std_score": 16.58,
+    "min_score": 23.87,
+    "max_score": 85.83,
+    "categories_count": 10,
+    "failure_rate": 14.0,
+    "avg_metrics": {
+      "semantic_similarity": 0.5002,
+      "intent_coverage": 0.84,
+      "completeness": 0.4908,
+      "tone": 0.56,
+      "grounding": 0.5,
+      "hallucination": 0.838,
+      "readability": 0.8386,
+      "llm_judge": 0.641,
+      "business_rules": 0.976
+    }
+  },
+  "score_distribution": {
+    "counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      3,
+      0,
+      4,
+      7,
+      1,
+      4,
+      10,
+      3,
+      13,
+      1,
+      0,
+      0
+    ],
+    "bin_edges": [
+      0.0,
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0,
+      65.0,
+      70.0,
+      75.0,
+      80.0,
+      85.0,
+      90.0,
+      95.0,
+      100.0
+    ],
+    "bin_labels": [
+      "0-5",
+      "5-10",
+      "10-15",
+      "15-20",
+      "20-25",
+      "25-30",
+      "30-35",
+      "35-40",
+      "40-45",
+      "45-50",
+      "50-55",
+      "55-60",
+      "60-65",
+      "65-70",
+      "70-75",
+      "75-80",
+      "80-85",
+      "85-90",
+      "90-95",
+      "95-100"
+    ],
+    "mean": 65.4468,
+    "median": 70.425,
+    "std": 16.577101247202418
+  },
+  "radar_overall": {
+    "metrics": [
+      "Semantic Similarity",
+      "Intent Coverage",
+      "Completeness",
+      "Tone",
+      "Grounding",
+      "Hallucination",
+      "Readability",
+      "LLM Judge"
+    ],
+    "values": [
+      0.500192,
+      0.84,
+      0.490834,
+      0.5600020000000001,
+      0.5,
+      0.8380000000000001,
+      0.8385780000000002,
+      0.6409999999999999
+    ]
+  },
+  "radar_comparison": {
+    "metrics": [
+      "Semantic Similarity",
+      "Intent Coverage",
+      "Completeness",
+      "Tone",
+      "Grounding",
+      "Hallucination",
+      "Readability",
+      "LLM Judge"
+    ],
+    "categories": {
+      "Billing": [
+        0.52882,
+        0.8666599999999999,
+        0.5,
+        0.76666,
+        0.5,
+        0.96,
+        0.84392,
+        0.9800000000000001
+      ],
+      "Complaint": [
+        0.5789,
+        1.0,
+        0.275,
+        0.73334,
+        0.5,
+        1.0,
+        0.83696,
+        0.9800000000000001
+      ],
+      "Customer Support": [
+        0.4967,
+        0.8,
+        0.05,
+        0.0,
+        0.5,
+        0.6599999999999999,
+        0.81864,
+        0.11000000000000001
+      ],
+      "HR": [
+        0.39768,
+        0.8,
+        0.85,
+        0.7000200000000001,
+        0.5,
+        1.0,
+        0.8451000000000001,
+        0.8
+      ],
+      "Internal Team": [
+        0.52452,
+        0.2,
+        0.4,
+        0.61666,
+        0.5,
+        0.2,
+        0.87252,
+        0.19
+      ],
+      "Logistics": [
+        0.5011399999999999,
+        0.73334,
+        0.73334,
+        0.71668,
+        0.5,
+        0.76,
+        0.79958,
+        0.79
+      ],
+      "Partnership": [
+        0.44276,
+        1.0,
+        0.55,
+        0.63334,
+        0.5,
+        0.8,
+        0.8435400000000002,
+        0.9200000000000002
+      ],
+      "Scheduling": [
+        0.49456000000000006,
+        1.0,
+        0.825,
+        0.66666,
+        0.5,
+        1.0,
+        0.84676,
+        0.78
+      ],
+      "Technical Issue": [
+        0.56132,
+        1.0,
+        0.725,
+        0.76666,
+        0.5,
+        1.0,
+        0.7936599999999999,
+        0.86
+      ],
+      "Thank You": [
+        0.47552000000000005,
+        1.0,
+        0.0,
+        0.0,
+        0.5,
+        1.0,
+        0.8851000000000001,
+        0.0
+      ]
+    }
+  },
+  "category_performance": {
+    "Scheduling": {
+      "count": 5.0,
+      "avg_score": 79.03,
+      "min_score": 72.57,
+      "max_score": 83.46
+    },
+    "HR": {
+      "count": 5.0,
+      "avg_score": 72.5,
+      "min_score": 41.13,
+      "max_score": 81.9
+    },
+    "Billing": {
+      "count": 5.0,
+      "avg_score": 70.45,
+      "min_score": 52.73,
+      "max_score": 81.8
+    },
+    "Complaint": {
+      "count": 5.0,
+      "avg_score": 69.88,
+      "min_score": 64.66,
+      "max_score": 73.14
+    },
+    "Partnership": {
+      "count": 5.0,
+      "avg_score": 70.13,
+      "min_score": 55.32,
+      "max_score": 82.09
+    },
+    "Logistics": {
+      "count": 5.0,
+      "avg_score": 67.49,
+      "min_score": 41.12,
+      "max_score": 81.94
+    },
+    "Technical Issue": {
+      "count": 5.0,
+      "avg_score": 78.83,
+      "min_score": 69.07,
+      "max_score": 84.08
+    },
+    "Internal Team": {
+      "count": 5.0,
+      "avg_score": 42.48,
+      "min_score": 26.36,
+      "max_score": 85.83
+    },
+    "Customer Support": {
+      "count": 5.0,
+      "avg_score": 47.82,
+      "min_score": 23.87,
+      "max_score": 55.25
+    },
+    "Thank You": {
+      "count": 5.0,
+      "avg_score": 55.86,
+      "min_score": 53.81,
+      "max_score": 58.36
+    }
+  },
+  "metric_distributions": {
+    "semantic_similarity": [
+      0.4548,
+      0.5526,
+      0.517,
+      0.514,
+      0.4344,
+      0.3389,
+      0.419,
+      0.3217,
+      0.5003,
+      0.4085,
+      0.5753,
+      0.4802,
+      0.6172,
+      0.4815,
+      0.4899,
+      0.5418,
+      0.6423,
+      0.6516,
+      0.412,
+      0.6468,
+      0.4704,
+      0.3453,
+      0.4318,
+      0.515,
+      0.4513,
+      0.5424,
+      0.5082,
+      0.5554,
+      0.5279,
+      0.3718,
+      0.5678,
+      0.5683,
+      0.4798,
+      0.6166,
+      0.5741,
+      0.5588,
+      0.4232,
+      0.5134,
+      0.5858,
+      0.5414,
+      0.5082,
+      0.4883,
+      0.605,
+      0.366,
+      0.516,
+      0.5807,
+      0.4795,
+      0.3796,
+      0.4838,
+      0.454
+    ],
+    "intent_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.3333,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.6667,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "completeness": [
+      1.0,
+      0.625,
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.25,
+      1.0,
+      0.25,
+      1.0,
+      0.25,
+      0.625,
+      0.375,
+      0.25,
+      0.25,
+      0.375,
+      0.25,
+      0.25,
+      1.0,
+      0.25,
+      0.25,
+      1.0,
+      0.25,
+      1.0,
+      1.0,
+      0.75,
+      0.5,
+      0.4167,
+      1.0,
+      0.25,
+      1.0,
+      0.625,
+      0.75,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tone": [
+      0.8333,
+      0.5833,
+      0.5,
+      0.6667,
+      0.75,
+      0.6667,
+      0.75,
+      0.6667,
+      0.75,
+      0.6667,
+      0.6667,
+      0.8333,
+      0.75,
+      0.75,
+      0.8333,
+      0.8333,
+      0.6667,
+      0.6667,
+      0.75,
+      0.75,
+      0.6667,
+      0.75,
+      0.5833,
+      0.5,
+      0.6667,
+      0.75,
+      0.6667,
+      0.75,
+      0.75,
+      0.6667,
+      0.75,
+      0.75,
+      0.5833,
+      0.9167,
+      0.8333,
+      0.8333,
+      0.6667,
+      0.75,
+      0.0,
+      0.8333,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "grounding": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "hallucination": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.7,
+      0.8,
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "readability": [
+      0.8531,
+      0.806,
+      0.8457,
+      0.8127,
+      0.9163,
+      0.867,
+      0.8524,
+      0.8414,
+      0.8127,
+      0.852,
+      0.8726,
+      0.8367,
+      0.8256,
+      0.8805,
+      0.8042,
+      0.8496,
+      0.8233,
+      0.8445,
+      0.8419,
+      0.8255,
+      0.8512,
+      0.8414,
+      0.8549,
+      0.8569,
+      0.8133,
+      0.79,
+      0.7605,
+      0.8053,
+      0.8241,
+      0.818,
+      0.7724,
+      0.7703,
+      0.7693,
+      0.8571,
+      0.7992,
+      0.8825,
+      0.8724,
+      0.8667,
+      0.8455,
+      0.8955,
+      0.8206,
+      0.7983,
+      0.8428,
+      0.8084,
+      0.8231,
+      0.9247,
+      0.852,
+      0.8716,
+      0.8909,
+      0.8863
+    ],
+    "llm_judge": [
+      0.5,
+      0.85,
+      0.9,
+      0.95,
+      0.7,
+      0.85,
+      0.8,
+      0.9,
+      0.7,
+      0.75,
+      1.0,
+      0.95,
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      1.0,
+      1.0,
+      0.95,
+      1.0,
+      0.95,
+      0.9,
+      0.85,
+      0.95,
+      0.95,
+      0.95,
+      0.9,
+      0.9,
+      0.75,
+      0.45,
+      0.85,
+      0.9,
+      0.85,
+      0.9,
+      0.8,
+      0.95,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.55,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "failure_analysis": {
+    "failure_count": 7,
+    "failure_rate": 14.0,
+    "common_issues": [
+      {
+        "issue": "some intents from the email are not addressed.",
+        "count": 7
+      },
+      {
+        "issue": "not all questions or requests are fully answered.",
+        "count": 6
+      },
+      {
+        "issue": "below-average quality as assessed by the llm judge.",
+        "count": 5
+      },
+      {
+        "issue": "potential hallucinated or fabricated claims detected.",
+        "count": 5
+      },
+      {
+        "issue": "some business rules are not met. (penalty: 1 business rule(s) failed.)",
+        "count": 4
+      },
+      {
+        "issue": "low semantic similarity to the reference reply.",
+        "count": 2
+      },
+      {
+        "issue": "tone mismatch with the expected reply style.",
+        "count": 2
+      },
+      {
+        "issue": "factual inconsistencies with source materials.",
+        "count": 1
+      }
+    ],
+    "worst_metrics": [
+      {
+        "metric": "intent_coverage",
+        "avg_score": 0.0
+      },
+      {
+        "metric": "completeness",
+        "avg_score": 0.27381428571428573
+      },
+      {
+        "metric": "hallucination",
+        "avg_score": 0.2857142857142857
+      },
+      {
+        "metric": "semantic_similarity",
+        "avg_score": 0.4920142857142857
+      },
+      {
+        "metric": "grounding",
+        "avg_score": 0.5
+      },
+      {
+        "metric": "tone",
+        "avg_score": 0.5238142857142857
+      }
+    ],
+    "category_breakdown": {
+      "HR": 1,
+      "Logistics": 1,
+      "Internal Team": 4,
+      "Customer Support": 1
+    }
+  },
+  "best_examples": [
+    {
+      "id": "f45b6d85-16a4-40b8-a953-830114937664",
+      "timestamp": "2026-07-08T04:15:19.489873",
+      "incoming_email": "Hi Sarah, I just saw the final Q3 performance report you put together for the executive team. The data visualization is absolutely stunning, and you managed to make the complex churn metrics so easy to understand. Truly fantastic work! No rush on anything else today, just wanted to send a quick thank you.",
+      "generated_reply": "Subject: Re: Q3 performance report\n\nHi [Sender Name],\n\nThank you so much for the kind words! I'm thrilled to hear that the data visualizations were helpful and that the churn metrics came across clearly for the executive team.\n\nI really appreciate you taking the time to send this note. \n\nBest regards,\n\nSarah",
+      "ground_truth_reply": "Hi Mark, thank you so much for the kind words! I'm really glad the visualizations hit the mark and that the churn metrics are clear for the execs. I appreciate you taking the time to let me know. I'll be diving into the Q4 planning now, but I'm happy to tweak any slides if the leadership team has follow-up questions.",
+      "category": "Internal Team",
+      "semantic_similarity_score": 0.5588,
+      "intent_coverage_score": 1.0,
+      "completeness_score": 1.0,
+      "tone_score": 0.8333,
+      "grounding_score": 0.5,
+      "hallucination_score": 1.0,
+      "readability_score": 0.8825,
+      "llm_judge_score": 0.95,
+      "business_rules_score": 1.0,
+      "composite_score": 85.83,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.5588,
+          "reasoning": "Semantic similarity is moderate (combined=0.56). Cosine similarity=0.77 captures overall meaning overlap; BERTScore F1=0.24 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.7689,
+            "bertscore_precision": 0.1615,
+            "bertscore_recall": 0.3262,
+            "bertscore_f1": 0.2438,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 1.0,
+          "reasoning": "Identified 2 intent(s); 2 covered, 0 uncovered (score=1.00).",
+          "details": {
+            "total_intents": 2,
+            "covered_count": 2,
+            "uncovered_count": 0,
+            "intents": [
+              {
+                "intent": "Provide positive feedback on the Q3 performance report data visualization and churn metrics",
+                "covered": true,
+                "evidence": "I'm thrilled to hear that the data visualizations were helpful and that the churn metrics came across clearly"
+              },
+              {
+                "intent": "Express gratitude/send a thank you note",
+                "covered": true,
+                "evidence": "Thank you so much for the kind words! I really appreciate you taking the time to send this note."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasoning": "No questions or requests detected \u2013 trivially complete.",
+          "details": {
+            "questions": []
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.8333,
+          "reasoning": "Generated ratings: {'formality': 4, 'professionalism': 5, 'empathy': 4, 'reasoning': 'Polite, structured, and uses professional sign-offs while remaining warm and appreciative.'}. Reference ratings: {'formality': 3, 'professionalism': 4, 'empathy': 4, 'reasoning': \"Conversational tone with casual phrasing like 'hit the mark' and 'execs', but remains professional and proactive.\"}. Per-dimension distance: {'formality': 1, 'professionalism': 1, 'empathy': 0}. Aggregate score=0.83.",
+          "details": {
+            "generated_ratings": {
+              "formality": 4,
+              "professionalism": 5,
+              "empathy": 4,
+              "reasoning": "Polite, structured, and uses professional sign-offs while remaining warm and appreciative."
+            },
+            "reference_ratings": {
+              "formality": 3,
+              "professionalism": 4,
+              "empathy": 4,
+              "reasoning": "Conversational tone with casual phrasing like 'hit the mark' and 'execs', but remains professional and proactive."
+            },
+            "distances": {
+              "formality": 1,
+              "professionalism": 1,
+              "empathy": 0
+            },
+            "total_distance": 2.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 1.0,
+          "reasoning": "No hallucinations detected. No hallucinations detected.",
+          "details": {
+            "hallucination_count": 0,
+            "hallucinations": [],
+            "overall_assessment": "No hallucinations detected."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "readability": {
+          "score": 0.8825,
+          "reasoning": "Flesch Reading Ease=70.0 (normalised=0.70). Word count=52 (score=1.00). Avg sentence length=13.0 words (score=1.00). Grammar issues (1): Text does not end with punctuation (., !, or ?).. Combined readability=0.88.",
+          "details": {
+            "flesch_reading_ease": 69.99,
+            "flesch_normalised": 0.6999,
+            "word_count": 52,
+            "sentence_count": 4,
+            "avg_sentence_length": 13.0,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.95,
+            "grammar_issues": [
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 1
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.95,
+          "reasoning": "LLM Judge average=4.80/5 (normalised=0.95).\n  Correctness: 5/5 \u2013 The reply accurately acknowledges the praise and the specific topics mentioned in the original email.\n  Completeness: 5/5 \u2013 The original email was a thank-you note requiring no specific action; the reply appropriately acknowledges the sentiment.\n  Professionalism: 5/5 \u2013 The tone is polite, appreciative, and perfectly suited for a professional workplace interaction.\n  Helpfulness: 5/5 \u2013 It closes the communication loop effectively by expressing gratitude for the feedback.\n  Naturalness: 4/5 \u2013 The flow is natural, though the use of '[Sender Name]' is a placeholder that would need to be filled, and it is slightly more formal than the reference reply.\nOverall: A high-quality, professional response that handles a positive feedback loop with grace and clarity.",
+          "details": {
+            "dimension_scores": {
+              "correctness": 5,
+              "completeness": 5,
+              "professionalism": 5,
+              "helpfulness": 5,
+              "naturalness": 4
+            },
+            "dimension_reasoning": {
+              "correctness": "The reply accurately acknowledges the praise and the specific topics mentioned in the original email.",
+              "completeness": "The original email was a thank-you note requiring no specific action; the reply appropriately acknowledges the sentiment.",
+              "professionalism": "The tone is polite, appreciative, and perfectly suited for a professional workplace interaction.",
+              "helpfulness": "It closes the communication loop effectively by expressing gratitude for the feedback.",
+              "naturalness": "The flow is natural, though the use of '[Sender Name]' is a placeholder that would need to be filled, and it is slightly more formal than the reference reply."
+            },
+            "average_rating": 4.8,
+            "overall_comment": "A high-quality, professional response that handles a positive feedback loop with grace and clarity."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 52 (within range).",
+                "value": 52
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "All or most intents from the email are addressed.",
+        "Thorough coverage of questions and requests.",
+        "Tone is consistent with the expected reply style.",
+        "No fabricated or hallucinated claims detected.",
+        "Clear, readable, and well-structured text.",
+        "High overall quality as assessed by the LLM judge.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Incorporate more information from the retrieved context examples to improve grounding."
+      ]
+    },
+    {
+      "id": "7a0dfaf2-b2ea-4a96-af2a-4f8a409c363a",
+      "timestamp": "2026-07-08T04:08:42.861902",
+      "incoming_email": "Hi IT Support,\n\nI'm writing to report a persistent issue with my workstation (Asset ID: WS-9921) that started after the OS update last Tuesday. Every time I attempt to launch the Adobe Creative Cloud suite, specifically Premiere Pro, the system hangs for about 30 seconds and then throws a 'Kernel Security Check Failure' blue screen. \n\nI've already tried clearing the cache and restarting the machine multiple times, but the crash happens consistently during the splash screen loading phase. This is becoming a major bottleneck for the Q3 Marketing campaign as I have three high-priority video edits due by Friday. I've attached the crash logs from the Event Viewer for your review. Could someone please look into this as soon as possible?\n\nBest regards,\n\nMarcus Thorne\nSenior Video Editor",
+      "generated_reply": "Subject: Support Request: Workstation WS-9921 - Adobe Premiere Pro Crash\n\nDear Marcus,\n\nThank you for reaching out and providing the Asset ID and crash logs. I understand how critical these video edits are for the Q3 Marketing campaign, and I apologize for the disruption this is causing to your workflow.\n\nBased on your description, the \"Kernel Security Check Failure\" occurring immediately after an OS update suggests a driver conflict or a system incompatibility triggered by the update.\n\nTo resolve this as quickly as possible, we will take the following steps:\n\n*   **Log Analysis:** Our technical team is currently reviewing the Event Viewer logs you attached to pinpoint the specific driver causing the blue screen.\n*   **Troubleshooting:** We will determine if a driver rollback or a specific Adobe patch is required to stabilize your system.\n*   **Urgency:** Given your Friday deadline, we have prioritized this ticket to ensure your workstation is operational as soon as possible.\n\nA technician will contact you shortly to either perform a remote session or visit your desk to implement the fix.\n\nIf you have any further details to add or if the situation changes, please let us know.\n\nBest regards,\n\n[Your Name]\nIT Support Team",
+      "ground_truth_reply": "Hi Marcus,\n\nThank you for providing those crash logs and the asset ID; it helps us narrow things down significantly. Based on the 'Kernel Security Check Failure' you're seeing, it looks like there is a driver conflict between the new OS update and your current GPU drivers.\n\nI have opened ticket #88210 for you. I can remote into your system at 2:00 PM today to perform a clean installation of the latest studio drivers, which should resolve the conflict with Premiere Pro. If that doesn't work, we may need to roll back the OS update temporarily to ensure you hit your Friday deadline. \n\nI'll send a calendar invite shortly. Let me know if that time works for you.\n\nBest,\n\nSarah Jenkins\nIT Desktop Support",
+      "category": "Technical Issue",
+      "semantic_similarity_score": 0.5678,
+      "intent_coverage_score": 1.0,
+      "completeness_score": 1.0,
+      "tone_score": 0.75,
+      "grounding_score": 0.5,
+      "hallucination_score": 1.0,
+      "readability_score": 0.7724,
+      "llm_judge_score": 0.85,
+      "business_rules_score": 1.0,
+      "composite_score": 84.08,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.5678,
+          "reasoning": "Semantic similarity is moderate (combined=0.57). Cosine similarity=0.80 captures overall meaning overlap; BERTScore F1=0.22 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.803,
+            "bertscore_precision": 0.1302,
+            "bertscore_recall": 0.3002,
+            "bertscore_f1": 0.2151,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 1.0,
+          "reasoning": "Identified 3 intent(s); 3 covered, 0 uncovered (score=1.00).",
+          "details": {
+            "total_intents": 3,
+            "covered_count": 3,
+            "uncovered_count": 0,
+            "intents": [
+              {
+                "intent": "Report a system crash (BSOD) when launching Adobe Premiere Pro on workstation WS-9921",
+                "covered": true,
+                "evidence": "Based on your description, the \"Kernel Security Check Failure\" occurring immediately after an OS update suggests a driver conflict..."
+              },
+              {
+                "intent": "Request for IT to investigate and resolve the issue as soon as possible",
+                "covered": true,
+                "evidence": "Given your Friday deadline, we have prioritized this ticket to ensure your workstation is operational as soon as possible."
+              },
+              {
+                "intent": "Provide crash logs for review",
+                "covered": true,
+                "evidence": "Our technical team is currently reviewing the Event Viewer logs you attached to pinpoint the specific driver causing the blue screen."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasoning": "Identified 1 question(s)/request(s). Status breakdown: {'fully_addressed': 1}. Score=1.00.",
+          "details": {
+            "total_questions": 1,
+            "status_counts": {
+              "fully_addressed": 1
+            },
+            "questions": [
+              {
+                "question": "Request for someone to look into the 'Kernel Security Check Failure' and system hangs when launching Adobe Premiere Pro.",
+                "status": "fully_addressed",
+                "explanation": "The reply acknowledges the issue, provides a preliminary diagnosis, outlines the specific steps for resolution (log analysis and troubleshooting), and confirms the ticket has been prioritized."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.75,
+          "reasoning": "Generated ratings: {'formality': 5, 'professionalism': 5, 'empathy': 4, 'reasoning': \"Uses a highly structured, corporate format with formal greetings and explicit acknowledgment of the user's stress and deadlines.\"}. Reference ratings: {'formality': 3, 'professionalism': 5, 'empathy': 3, 'reasoning': 'Maintains a professional and efficient tone but uses more casual phrasing and a direct, action-oriented approach.'}. Per-dimension distance: {'formality': 2, 'professionalism': 0, 'empathy': 1}. Aggregate score=0.75.",
+          "details": {
+            "generated_ratings": {
+              "formality": 5,
+              "professionalism": 5,
+              "empathy": 4,
+              "reasoning": "Uses a highly structured, corporate format with formal greetings and explicit acknowledgment of the user's stress and deadlines."
+            },
+            "reference_ratings": {
+              "formality": 3,
+              "professionalism": 5,
+              "empathy": 3,
+              "reasoning": "Maintains a professional and efficient tone but uses more casual phrasing and a direct, action-oriented approach."
+            },
+            "distances": {
+              "formality": 2,
+              "professionalism": 0,
+              "empathy": 1
+            },
+            "total_distance": 3.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 1.0,
+          "reasoning": "No hallucinations detected. No hallucinations detected.",
+          "details": {
+            "hallucination_count": 0,
+            "hallucinations": [],
+            "overall_assessment": "No hallucinations detected."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "readability": {
+          "score": 0.7724,
+          "reasoning": "Flesch Reading Ease=42.1 (normalised=0.42). Word count=199 (score=1.00). Avg sentence length=22.1 words (score=1.00). Grammar issues (2): Contains double spaces.; Text does not end with punctuation (., !, or ?).. Combined readability=0.77.",
+          "details": {
+            "flesch_reading_ease": 42.11,
+            "flesch_normalised": 0.4211,
+            "word_count": 199,
+            "sentence_count": 9,
+            "avg_sentence_length": 22.11,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.9,
+            "grammar_issues": [
+              "Contains double spaces.",
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 2
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.85,
+          "reasoning": "LLM Judge average=4.40/5 (normalised=0.85).\n  Correctness: 5/5 \u2013 The reply accurately identifies the likely cause (driver conflict/incompatibility) based on the symptoms provided.\n  Completeness: 4/5 \u2013 It addresses all points of the email, though it is less specific than the reference reply regarding the exact time of resolution.\n  Professionalism: 5/5 \u2013 The tone is empathetic, professional, and well-structured, acknowledging the business impact (Q3 campaign).\n  Helpfulness: 4/5 \u2013 It provides a clear plan of action and prioritizes the request, though it lacks a concrete appointment time.\n  Naturalness: 4/5 \u2013 The writing is clear and human-like, although the bulleted list format makes it feel slightly more like a template than a personal email.\nOverall: The generated reply is a high-quality professional response. While it is slightly more generic than the reference reply (which offered a specific time and ticket number), it effectively manages the user's expectations and acknowledges the urgency of the deadline.",
+          "details": {
+            "dimension_scores": {
+              "correctness": 5,
+              "completeness": 4,
+              "professionalism": 5,
+              "helpfulness": 4,
+              "naturalness": 4
+            },
+            "dimension_reasoning": {
+              "correctness": "The reply accurately identifies the likely cause (driver conflict/incompatibility) based on the symptoms provided.",
+              "completeness": "It addresses all points of the email, though it is less specific than the reference reply regarding the exact time of resolution.",
+              "professionalism": "The tone is empathetic, professional, and well-structured, acknowledging the business impact (Q3 campaign).",
+              "helpfulness": "It provides a clear plan of action and prioritizes the request, though it lacks a concrete appointment time.",
+              "naturalness": "The writing is clear and human-like, although the bulleted list format makes it feel slightly more like a template than a personal email."
+            },
+            "average_rating": 4.4,
+            "overall_comment": "The generated reply is a high-quality professional response. While it is slightly more generic than the reference reply (which offered a specific time and ticket number), it effectively manages the user's expectations and acknowledges the urgency of the deadline."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 199 (within range).",
+                "value": 199
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "All or most intents from the email are addressed.",
+        "Thorough coverage of questions and requests.",
+        "No fabricated or hallucinated claims detected.",
+        "High overall quality as assessed by the LLM judge.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Incorporate more information from the retrieved context examples to improve grounding."
+      ]
+    },
+    {
+      "id": "d6561065-143e-4140-904a-a71f8ae700ff",
+      "timestamp": "2026-07-08T03:32:02.166662",
+      "incoming_email": "Hi Sarah, regarding the Q3 review for the CloudSync implementation, we need to touch base soon. Let me know when you have a window next week to go over the things we discussed in the hallway last month.",
+      "generated_reply": "Subject: Re: Q3 review for CloudSync implementation\n\nHi [Customer Name],\n\nI would be happy to touch base and review the CloudSync implementation for Q3, as well as the items we discussed last month.\n\nI have several windows of availability next week. Please let me know if any of the following times work for you:\n\n*   [Insert Date]: [Insert Time/Time Zone]\n*   [Insert Date]: [Insert Time/Time Zone]\n*   [Insert Date]: [Insert Time/Time Zone]\n\nIf none of these options fit your schedule, feel free to send over a few dates and times that work best for you, and I will make it happen.\n\nLooking forward to catching up.\n\nBest regards,\n\nSarah\n[Your Job Title]",
+      "ground_truth_reply": "Hi Mark, I'd be happy to sync up on the CloudSync Q3 review. To make sure I have the right data ready, could you clarify which specific points from our previous conversation you'd like to prioritize? I am available next Tuesday from 2:00 PM to 4:00 PM or Wednesday morning before 11:00 AM. Let me know if either of those work for you.",
+      "category": "Scheduling",
+      "semantic_similarity_score": 0.4548,
+      "intent_coverage_score": 1.0,
+      "completeness_score": 1.0,
+      "tone_score": 0.8333,
+      "grounding_score": 0.5,
+      "hallucination_score": 1.0,
+      "readability_score": 0.8531,
+      "llm_judge_score": 0.5,
+      "business_rules_score": 1.0,
+      "composite_score": 83.46,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.4548,
+          "reasoning": "Semantic similarity is low (combined=0.45). Cosine similarity=0.76 captures overall meaning overlap; BERTScore F1=0.00 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.7581,
+            "bertscore_precision": 0.0,
+            "bertscore_recall": 0.1305,
+            "bertscore_f1": 0.0,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 1.0,
+          "reasoning": "Identified 2 intent(s); 2 covered, 0 uncovered (score=1.00).",
+          "details": {
+            "total_intents": 2,
+            "covered_count": 2,
+            "uncovered_count": 0,
+            "intents": [
+              {
+                "intent": "Schedule a meeting to discuss the Q3 review for the CloudSync implementation",
+                "covered": true,
+                "evidence": "I have several windows of availability next week. Please let me know if any of the following times work for you"
+              },
+              {
+                "intent": "Discuss the specific items mentioned in a previous hallway conversation",
+                "covered": true,
+                "evidence": "I would be happy to touch base and review the CloudSync implementation for Q3, as well as the items we discussed last month."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasoning": "Identified 1 question(s)/request(s). Status breakdown: {'fully_addressed': 1}. Score=1.00.",
+          "details": {
+            "total_questions": 1,
+            "status_counts": {
+              "fully_addressed": 1
+            },
+            "questions": [
+              {
+                "question": "Request for availability next week to discuss Q3 review and previous hallway discussion",
+                "status": "fully_addressed",
+                "explanation": "The reply explicitly agrees to the meeting and provides multiple specific time slots for the following week."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.8333,
+          "reasoning": "Generated ratings: {'formality': 4, 'professionalism': 5, 'empathy': 3, 'reasoning': 'Uses a structured corporate format with a formal sign-off and polite, accommodating language.'}. Reference ratings: {'formality': 3, 'professionalism': 4, 'empathy': 3, 'reasoning': 'More conversational and direct; focuses on efficiency and clarity over formal structure.'}. Per-dimension distance: {'formality': 1, 'professionalism': 1, 'empathy': 0}. Aggregate score=0.83.",
+          "details": {
+            "generated_ratings": {
+              "formality": 4,
+              "professionalism": 5,
+              "empathy": 3,
+              "reasoning": "Uses a structured corporate format with a formal sign-off and polite, accommodating language."
+            },
+            "reference_ratings": {
+              "formality": 3,
+              "professionalism": 4,
+              "empathy": 3,
+              "reasoning": "More conversational and direct; focuses on efficiency and clarity over formal structure."
+            },
+            "distances": {
+              "formality": 1,
+              "professionalism": 1,
+              "empathy": 0
+            },
+            "total_distance": 2.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 1.0,
+          "reasoning": "No hallucinations detected. No hallucinations detected.",
+          "details": {
+            "hallucination_count": 0,
+            "hallucinations": [],
+            "overall_assessment": "No hallucinations detected."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "readability": {
+          "score": 0.8531,
+          "reasoning": "Flesch Reading Ease=65.2 (normalised=0.65). Word count=112 (score=1.00). Avg sentence length=22.4 words (score=1.00). Grammar issues (2): Contains double spaces.; Text does not end with punctuation (., !, or ?).. Combined readability=0.85.",
+          "details": {
+            "flesch_reading_ease": 65.18,
+            "flesch_normalised": 0.6518,
+            "word_count": 112,
+            "sentence_count": 5,
+            "avg_sentence_length": 22.4,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.9,
+            "grammar_issues": [
+              "Contains double spaces.",
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 2
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.5,
+          "reasoning": "LLM Judge average=3.00/5 (normalised=0.50).\n  Correctness: 3/5 \u2013 The reply uses placeholders like '[Customer Name]' instead of the sender's name (Mark), which is a factual error based on the context.\n  Completeness: 3/5 \u2013 While it addresses the request for a meeting, it fails to provide actual dates and times, leaving them as placeholders for the user to fill in.\n  Professionalism: 5/5 \u2013 The tone is polite, structured, and appropriate for a business setting.\n  Helpfulness: 2/5 \u2013 The email is not immediately helpful because the recipient cannot actually book a time since no specific availability was provided.\n  Naturalness: 2/5 \u2013 The use of bracketed placeholders makes it read like a template rather than a human-written response.\nOverall: The generated reply is a professional template, but it fails as a functional response because it requires manual editing of names and dates before it can be sent.",
+          "details": {
+            "dimension_scores": {
+              "correctness": 3,
+              "completeness": 3,
+              "professionalism": 5,
+              "helpfulness": 2,
+              "naturalness": 2
+            },
+            "dimension_reasoning": {
+              "correctness": "The reply uses placeholders like '[Customer Name]' instead of the sender's name (Mark), which is a factual error based on the context.",
+              "completeness": "While it addresses the request for a meeting, it fails to provide actual dates and times, leaving them as placeholders for the user to fill in.",
+              "professionalism": "The tone is polite, structured, and appropriate for a business setting.",
+              "helpfulness": "The email is not immediately helpful because the recipient cannot actually book a time since no specific availability was provided.",
+              "naturalness": "The use of bracketed placeholders makes it read like a template rather than a human-written response."
+            },
+            "average_rating": 3.0,
+            "overall_comment": "The generated reply is a professional template, but it fails as a functional response because it requires manual editing of names and dates before it can be sent."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 112 (within range).",
+                "value": 112
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "All or most intents from the email are addressed.",
+        "Thorough coverage of questions and requests.",
+        "Tone is consistent with the expected reply style.",
+        "No fabricated or hallucinated claims detected.",
+        "Clear, readable, and well-structured text.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [
+        "Low semantic similarity to the reference reply."
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Incorporate more information from the retrieved context examples to improve grounding."
+      ]
+    },
+    {
+      "id": "c561d948-4b50-41a2-9045-12897f43a134",
+      "timestamp": "2026-07-08T03:36:17.686286",
+      "incoming_email": "Hey Jamie, I think we're almost ready for the final walkthrough of the site build. We just need to align on a few more bits and pieces first. Maybe sometime later this month?",
+      "generated_reply": "Subject: Re: Site build final walkthrough\n\nHi [Customer Name],\n\nIt's great to hear that we are nearing the final walkthrough! I agree that aligning on those last few details first is the best way to ensure a smooth handover.\n\nI am available later this month. Please let me know which dates and times work best for you, or feel free to send over a calendar invite, and I will make it work.\n\nLooking forward to wrapping this up with you.\n\nBest regards,\n\nJamie",
+      "ground_truth_reply": "Hi Alex, it's great to hear we're nearing the final walkthrough! To ensure we're fully prepared, could you send over the list of 'bits and pieces' that still need alignment? Once I have those, I can suggest a date toward the end of the month that gives us enough time to wrap up those items first.",
+      "category": "Scheduling",
+      "semantic_similarity_score": 0.4344,
+      "intent_coverage_score": 1.0,
+      "completeness_score": 1.0,
+      "tone_score": 0.75,
+      "grounding_score": 0.5,
+      "hallucination_score": 1.0,
+      "readability_score": 0.9163,
+      "llm_judge_score": 0.7,
+      "business_rules_score": 1.0,
+      "composite_score": 82.85,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.4344,
+          "reasoning": "Semantic similarity is low (combined=0.43). Cosine similarity=0.60 captures overall meaning overlap; BERTScore F1=0.19 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.6007,
+            "bertscore_precision": 0.0941,
+            "bertscore_recall": 0.2765,
+            "bertscore_f1": 0.185,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 1.0,
+          "reasoning": "Identified 2 intent(s); 2 covered, 0 uncovered (score=1.00).",
+          "details": {
+            "total_intents": 2,
+            "covered_count": 2,
+            "uncovered_count": 0,
+            "intents": [
+              {
+                "intent": "Align on remaining details before the final walkthrough",
+                "covered": true,
+                "evidence": "I agree that aligning on those last few details first is the best way to ensure a smooth handover."
+              },
+              {
+                "intent": "Schedule the final walkthrough for later this month",
+                "covered": true,
+                "evidence": "I am available later this month. Please let me know which dates and times work best for you"
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasoning": "Identified 2 question(s)/request(s). Status breakdown: {'fully_addressed': 2}. Score=1.00.",
+          "details": {
+            "total_questions": 2,
+            "status_counts": {
+              "fully_addressed": 2
+            },
+            "questions": [
+              {
+                "question": "Align on a few more bits and pieces before the walkthrough",
+                "status": "fully_addressed",
+                "explanation": "Jamie agrees that aligning on the last few details first is the best approach."
+              },
+              {
+                "question": "Schedule the final walkthrough for sometime later this month",
+                "status": "fully_addressed",
+                "explanation": "Jamie confirms availability for later this month and asks the customer for specific dates/times."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.75,
+          "reasoning": "Generated ratings: {'formality': 4, 'professionalism': 5, 'empathy': 4, 'reasoning': 'Uses a structured corporate format with a formal sign-off and a polite, accommodating tone.'}. Reference ratings: {'formality': 3, 'professionalism': 4, 'empathy': 3, 'reasoning': \"More conversational and direct; uses colloquialisms like 'bits and pieces' and lacks a formal closing.\"}. Per-dimension distance: {'formality': 1, 'professionalism': 1, 'empathy': 1}. Aggregate score=0.75.",
+          "details": {
+            "generated_ratings": {
+              "formality": 4,
+              "professionalism": 5,
+              "empathy": 4,
+              "reasoning": "Uses a structured corporate format with a formal sign-off and a polite, accommodating tone."
+            },
+            "reference_ratings": {
+              "formality": 3,
+              "professionalism": 4,
+              "empathy": 3,
+              "reasoning": "More conversational and direct; uses colloquialisms like 'bits and pieces' and lacks a formal closing."
+            },
+            "distances": {
+              "formality": 1,
+              "professionalism": 1,
+              "empathy": 1
+            },
+            "total_distance": 3.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 1.0,
+          "reasoning": "No hallucinations detected. No hallucinations detected.",
+          "details": {
+            "hallucination_count": 0,
+            "hallucinations": [],
+            "overall_assessment": "No hallucinations detected."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "readability": {
+          "score": 0.9163,
+          "reasoning": "Flesch Reading Ease=79.7 (normalised=0.80). Word count=83 (score=1.00). Avg sentence length=13.8 words (score=1.00). Grammar issues (1): Text does not end with punctuation (., !, or ?).. Combined readability=0.92.",
+          "details": {
+            "flesch_reading_ease": 79.65,
+            "flesch_normalised": 0.7965,
+            "word_count": 83,
+            "sentence_count": 6,
+            "avg_sentence_length": 13.83,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.95,
+            "grammar_issues": [
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 1
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.7,
+          "reasoning": "LLM Judge average=3.80/5 (normalised=0.70).\n  Correctness: 5/5 \u2013 The reply is logically consistent and does not contain any factual errors.\n  Completeness: 3/5 \u2013 While it addresses the timing, it fails to ask for the specific 'bits and pieces' mentioned in the original email, which is a critical step for preparation.\n  Professionalism: 4/5 \u2013 The tone is polite and business-appropriate, though the use of '[Customer Name]' instead of 'Alex' is a minor template oversight.\n  Helpfulness: 3/5 \u2013 It moves the scheduling forward, but it is less helpful than the reference reply because it doesn't seek to resolve the outstanding issues before booking the meeting.\n  Naturalness: 4/5 \u2013 The flow is smooth and reads naturally, although it feels slightly more generic than a personalized response.\nOverall: The generated reply is professional and polite, but it misses the strategic opportunity to identify the remaining tasks before scheduling the walkthrough, making it less effective than the reference.",
+          "details": {
+            "dimension_scores": {
+              "correctness": 5,
+              "completeness": 3,
+              "professionalism": 4,
+              "helpfulness": 3,
+              "naturalness": 4
+            },
+            "dimension_reasoning": {
+              "correctness": "The reply is logically consistent and does not contain any factual errors.",
+              "completeness": "While it addresses the timing, it fails to ask for the specific 'bits and pieces' mentioned in the original email, which is a critical step for preparation.",
+              "professionalism": "The tone is polite and business-appropriate, though the use of '[Customer Name]' instead of 'Alex' is a minor template oversight.",
+              "helpfulness": "It moves the scheduling forward, but it is less helpful than the reference reply because it doesn't seek to resolve the outstanding issues before booking the meeting.",
+              "naturalness": "The flow is smooth and reads naturally, although it feels slightly more generic than a personalized response."
+            },
+            "average_rating": 3.8,
+            "overall_comment": "The generated reply is professional and polite, but it misses the strategic opportunity to identify the remaining tasks before scheduling the walkthrough, making it less effective than the reference."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 83 (within range).",
+                "value": 83
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "All or most intents from the email are addressed.",
+        "Thorough coverage of questions and requests.",
+        "No fabricated or hallucinated claims detected.",
+        "Clear, readable, and well-structured text.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [
+        "Low semantic similarity to the reference reply."
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Incorporate more information from the retrieved context examples to improve grounding."
+      ]
+    },
+    {
+      "id": "39b8a05a-133e-4c9a-b650-f13bfbb52840",
+      "timestamp": "2026-07-08T03:55:44.221259",
+      "incoming_email": "Hi Sarah, I'm from CloudScale and would love to discuss a potential API integration partnership for Q3. Do you have time next Tuesday?",
+      "generated_reply": "Subject: Partnership Inquiry: CloudScale & API Integration\n\nHello,\n\nThank you for reaching out. We appreciate your interest in partnering with us for an API integration.\n\nI would be happy to discuss how CloudScale and our team can collaborate for Q3. I am available next Tuesday; please let me know what time works best for you, or feel free to send over a calendar invitation.\n\nI look forward to connecting with you.\n\nBest regards,\n\nSarah\n[Your Title]",
+      "ground_truth_reply": "Hi there! We'd be very interested in exploring an integration with CloudScale. Tuesday works for me\u2014does 2:00 PM EST fit your schedule?",
+      "category": "Partnership",
+      "semantic_similarity_score": 0.4704,
+      "intent_coverage_score": 1.0,
+      "completeness_score": 1.0,
+      "tone_score": 0.6667,
+      "grounding_score": 0.5,
+      "hallucination_score": 1.0,
+      "readability_score": 0.8512,
+      "llm_judge_score": 0.95,
+      "business_rules_score": 1.0,
+      "composite_score": 82.09,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.4704,
+          "reasoning": "Semantic similarity is low (combined=0.47). Cosine similarity=0.72 captures overall meaning overlap; BERTScore F1=0.09 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.7234,
+            "bertscore_precision": 0.0,
+            "bertscore_recall": 0.1933,
+            "bertscore_f1": 0.0908,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 1.0,
+          "reasoning": "Identified 2 intent(s); 2 covered, 0 uncovered (score=1.00).",
+          "details": {
+            "total_intents": 2,
+            "covered_count": 2,
+            "uncovered_count": 0,
+            "intents": [
+              {
+                "intent": "Discuss a potential API integration partnership for Q3",
+                "covered": true,
+                "evidence": "I would be happy to discuss how CloudScale and our team can collaborate for Q3."
+              },
+              {
+                "intent": "Check availability for next Tuesday",
+                "covered": true,
+                "evidence": "I am available next Tuesday; please let me know what time works best for you"
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasoning": "Identified 2 question(s)/request(s). Status breakdown: {'fully_addressed': 2}. Score=1.00.",
+          "details": {
+            "total_questions": 2,
+            "status_counts": {
+              "fully_addressed": 2
+            },
+            "questions": [
+              {
+                "question": "Discuss a potential API integration partnership for Q3",
+                "status": "fully_addressed",
+                "explanation": "Sarah explicitly states she would be happy to discuss the collaboration for Q3."
+              },
+              {
+                "question": "Availability for next Tuesday",
+                "status": "fully_addressed",
+                "explanation": "Sarah confirms she is available next Tuesday and asks for a specific time or a calendar invite."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.6667,
+          "reasoning": "Generated ratings: {'formality': 4, 'professionalism': 5, 'empathy': 3, 'reasoning': 'Uses a structured corporate format with formal greetings and a polished closing, maintaining a polite but neutral tone.'}. Reference ratings: {'formality': 2, 'professionalism': 3, 'empathy': 3, 'reasoning': 'Casual opening and concise phrasing make it friendly and efficient, though less formal than the generated version.'}. Per-dimension distance: {'formality': 2, 'professionalism': 2, 'empathy': 0}. Aggregate score=0.67.",
+          "details": {
+            "generated_ratings": {
+              "formality": 4,
+              "professionalism": 5,
+              "empathy": 3,
+              "reasoning": "Uses a structured corporate format with formal greetings and a polished closing, maintaining a polite but neutral tone."
+            },
+            "reference_ratings": {
+              "formality": 2,
+              "professionalism": 3,
+              "empathy": 3,
+              "reasoning": "Casual opening and concise phrasing make it friendly and efficient, though less formal than the generated version."
+            },
+            "distances": {
+              "formality": 2,
+              "professionalism": 2,
+              "empathy": 0
+            },
+            "total_distance": 4.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 1.0,
+          "reasoning": "No hallucinations detected. No hallucinations detected.",
+          "details": {
+            "hallucination_count": 0,
+            "hallucinations": [],
+            "overall_assessment": "No hallucinations detected."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "readability": {
+          "score": 0.8512,
+          "reasoning": "Flesch Reading Ease=61.0 (normalised=0.61). Word count=76 (score=1.00). Avg sentence length=12.7 words (score=1.00). Grammar issues (1): Text does not end with punctuation (., !, or ?).. Combined readability=0.85.",
+          "details": {
+            "flesch_reading_ease": 61.04,
+            "flesch_normalised": 0.6104,
+            "word_count": 76,
+            "sentence_count": 6,
+            "avg_sentence_length": 12.67,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.95,
+            "grammar_issues": [
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 1
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.95,
+          "reasoning": "LLM Judge average=4.80/5 (normalised=0.95).\n  Correctness: 5/5 \u2013 The reply accurately reflects the intent of the original email and the reference reply.\n  Completeness: 5/5 \u2013 It addresses the partnership request and confirms availability for the requested day.\n  Professionalism: 5/5 \u2013 The tone is formal, polite, and perfectly suited for a B2B partnership inquiry.\n  Helpfulness: 4/5 \u2013 It is helpful and welcoming, though it is slightly less efficient than the reference reply because it doesn't propose a specific time slot.\n  Naturalness: 5/5 \u2013 The flow and phrasing are natural and typical for professional business correspondence.\nOverall: The generated reply is a high-quality, professional response that effectively handles the inquiry, though it misses the opportunity to reduce friction by suggesting a specific time.",
+          "details": {
+            "dimension_scores": {
+              "correctness": 5,
+              "completeness": 5,
+              "professionalism": 5,
+              "helpfulness": 4,
+              "naturalness": 5
+            },
+            "dimension_reasoning": {
+              "correctness": "The reply accurately reflects the intent of the original email and the reference reply.",
+              "completeness": "It addresses the partnership request and confirms availability for the requested day.",
+              "professionalism": "The tone is formal, polite, and perfectly suited for a B2B partnership inquiry.",
+              "helpfulness": "It is helpful and welcoming, though it is slightly less efficient than the reference reply because it doesn't propose a specific time slot.",
+              "naturalness": "The flow and phrasing are natural and typical for professional business correspondence."
+            },
+            "average_rating": 4.8,
+            "overall_comment": "The generated reply is a high-quality, professional response that effectively handles the inquiry, though it misses the opportunity to reduce friction by suggesting a specific time."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 76 (within range).",
+                "value": 76
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "All or most intents from the email are addressed.",
+        "Thorough coverage of questions and requests.",
+        "No fabricated or hallucinated claims detected.",
+        "Clear, readable, and well-structured text.",
+        "High overall quality as assessed by the LLM judge.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [
+        "Low semantic similarity to the reference reply."
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Incorporate more information from the retrieved context examples to improve grounding."
+      ]
+    }
+  ],
+  "worst_examples": [
+    {
+      "id": "8f8d17eb-711c-4f76-bd4d-63d9d199bc64",
+      "timestamp": "2026-07-08T04:19:27.333590",
+      "incoming_email": "Hi Support Team, I'm checking in on the status of Ticket #88219 for the account migration. Why is the data sync still showing as 40% complete after 12 hours? Also, did the team verify if the custom API endpoints were mapped correctly? Lastly, can you confirm when the final cut-over is scheduled for this weekend?",
+      "generated_reply": "Subject: Update regarding your account migration - Ticket #88219\n\nHi there,\n\nThank you for reaching out. I have looked into the status of Ticket #88219 to provide you with the most accurate updates on your account migration.\n\nRegarding your specific questions:\n\n*   **Data Sync Progress:** I apologize for the delay in the sync process. I am currently investigating why the progress has stalled at 40% after 12 hours to determine if there is a bottleneck or a connection timeout.\n*   **Custom API Endpoints:** I am verifying with the technical team whether the custom API endpoints have been correctly mapped. I want to ensure this is fully confirmed before providing you with a definitive \"yes.\"\n*   **Final Cut-over Schedule:** I am confirming the exact window for this weekend's final cut-over and will provide the specific date and time shortly.\n\nBecause I want to ensure you have precise technical answers rather than estimates, I have escalated this ticket to our migration engineers for an immediate status report. I will follow up with you as soon as I have their confirmation on these three points.\n\nThank you for your patience. Please let me know if you have any other questions in the meantime.\n\nBest regards,\n\n[Your Name]\nCustomer Support Team",
+      "ground_truth_reply": "Hello, thank you for reaching out. Regarding Ticket #88219, the sync slowed down due to a large volume of legacy attachments, but we have allocated more resources and it is now moving at 85%. I have personally verified with the engineering team that all custom API endpoints were mapped correctly during the staging phase. The final cut-over is scheduled for Saturday, October 14th, at 11:00 PM EST. I will keep you updated on the progress.",
+      "category": "Customer Support",
+      "semantic_similarity_score": 0.5082,
+      "intent_coverage_score": 0.0,
+      "completeness_score": 0.25,
+      "tone_score": 0.0,
+      "grounding_score": 0.5,
+      "hallucination_score": 0.0,
+      "readability_score": 0.8206,
+      "llm_judge_score": 0.55,
+      "business_rules_score": 0.8,
+      "composite_score": 23.87,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.5082,
+          "reasoning": "Semantic similarity is moderate (combined=0.51). Cosine similarity=0.77 captures overall meaning overlap; BERTScore F1=0.12 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.7662,
+            "bertscore_precision": 0.0,
+            "bertscore_recall": 0.2598,
+            "bertscore_f1": 0.1213,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "completeness": {
+          "score": 0.25,
+          "reasoning": "Identified 3 question(s)/request(s). Status breakdown: {'deferred': 3}. Score=0.25.\n  \u2022 DEFERRED: \"Why is the data sync still showing as 40% complete after 12 hours?\" \u2014 The agent acknowledges the issue and states they are currently investigating the cause, but does not provide the answer.\n  \u2022 DEFERRED: \"Did the team verify if the custom API endpoints were mapped correctly?\" \u2014 The agent is currently verifying this with the technical team and will provide a definitive answer later.\n  \u2022 DEFERRED: \"When is the final cut-over scheduled for this weekend?\" \u2014 The agent is confirming the exact window and promises to provide the date and time shortly.",
+          "details": {
+            "total_questions": 3,
+            "status_counts": {
+              "deferred": 3
+            },
+            "questions": [
+              {
+                "question": "Why is the data sync still showing as 40% complete after 12 hours?",
+                "status": "deferred",
+                "explanation": "The agent acknowledges the issue and states they are currently investigating the cause, but does not provide the answer."
+              },
+              {
+                "question": "Did the team verify if the custom API endpoints were mapped correctly?",
+                "status": "deferred",
+                "explanation": "The agent is currently verifying this with the technical team and will provide a definitive answer later."
+              },
+              {
+                "question": "When is the final cut-over scheduled for this weekend?",
+                "status": "deferred",
+                "explanation": "The agent is confirming the exact window and promises to provide the date and time shortly."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "readability": {
+          "score": 0.8206,
+          "reasoning": "Flesch Reading Ease=55.9 (normalised=0.56). Word count=207 (score=1.00). Avg sentence length=18.8 words (score=1.00). Grammar issues (2): Contains double spaces.; Text does not end with punctuation (., !, or ?).. Combined readability=0.82.",
+          "details": {
+            "flesch_reading_ease": 55.89,
+            "flesch_normalised": 0.5589,
+            "word_count": 207,
+            "sentence_count": 11,
+            "avg_sentence_length": 18.82,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.9,
+            "grammar_issues": [
+              "Contains double spaces.",
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 2
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.55,
+          "reasoning": "LLM Judge average=3.20/5 (normalised=0.55).\n  Correctness: 2/5 \u2013 The generated reply contradicts the reference reply. The reference states the sync is at 85% and endpoints are verified, whereas the generated reply claims it is still at 40% and unknown.\n  Completeness: 3/5 \u2013 While it addresses all three questions, it does so by deferring the answers rather than providing the actual information available in the reference.\n  Professionalism: 5/5 \u2013 The tone is polite, structured, and follows business email etiquette perfectly.\n  Helpfulness: 2/5 \u2013 It is not helpful because it tells the customer the team is 'investigating' things that have already been resolved/confirmed in the reference data.\n  Naturalness: 4/5 \u2013 The writing is fluent and reads like a standard corporate support response.\nOverall: The generated reply is professionally written but fails as a support response because it ignores the factual data provided in the reference reply, opting to tell the customer that the team is still investigating issues that are already solved.",
+          "details": {
+            "dimension_scores": {
+              "correctness": 2,
+              "completeness": 3,
+              "professionalism": 5,
+              "helpfulness": 2,
+              "naturalness": 4
+            },
+            "dimension_reasoning": {
+              "correctness": "The generated reply contradicts the reference reply. The reference states the sync is at 85% and endpoints are verified, whereas the generated reply claims it is still at 40% and unknown.",
+              "completeness": "While it addresses all three questions, it does so by deferring the answers rather than providing the actual information available in the reference.",
+              "professionalism": "The tone is polite, structured, and follows business email etiquette perfectly.",
+              "helpfulness": "It is not helpful because it tells the customer the team is 'investigating' things that have already been resolved/confirmed in the reference data.",
+              "naturalness": "The writing is fluent and reads like a standard corporate support response."
+            },
+            "average_rating": 3.2,
+            "overall_comment": "The generated reply is professionally written but fails as a support response because it ignores the factual data provided in the reference reply, opting to tell the customer that the team is still investigating issues that are already solved."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "business_rules": {
+          "score": 0.8,
+          "reasoning": "Business rule compliance: 4/5 rules passed (score=0.80).\n  \u2717 category_inquiry: Inquiry emails must offer help or provide information. \u2014 requirement NOT met.",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 207 (within range).",
+                "value": 207
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              },
+              {
+                "rule": "category_inquiry",
+                "passed": false,
+                "reason": "Inquiry emails must offer help or provide information. \u2014 requirement NOT met."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 5,
+            "failed_rules": [
+              "category_inquiry"
+            ],
+            "detected_category": "inquiry"
+          },
+          "penalized": true,
+          "penalty_reason": "1 business rule(s) failed."
+        },
+        "factuality": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        }
+      },
+      "strengths": [
+        "Clear, readable, and well-structured text.",
+        "Complies with all business rules (greeting, sign-off, length)."
+      ],
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Tone mismatch with the expected reply style.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Some business rules are not met. (penalty: 1 business rule(s) failed.)",
+        "Factual inconsistencies with source materials."
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Re-read the email and ensure every question, request, and topic is explicitly addressed.",
+        "Provide complete answers to all questions. Avoid deferring unless genuinely necessary.",
+        "Incorporate more information from the retrieved context examples to improve grounding.",
+        "Adjust the tone to match the expected formality and empathy level.",
+        "Remove any claims about dates, prices, policies, or reference numbers not supported by the source material.",
+        "Cross-check all factual claims against the original email and context to eliminate contradictions."
+      ]
+    },
+    {
+      "id": "3b5f58af-332b-4249-ba82-c0dc6cdb3ac8",
+      "timestamp": "2026-07-08T04:16:06.467394",
+      "incoming_email": "Team, I am beyond thrilled to announce that the Beta launch for Project Helios was a massive success! We hit 10k active users in the first 48 hours. I know the last two weeks were grueling and some of the bugs in the API were frustrating, but your persistence paid off. Let's celebrate this win!",
+      "generated_reply": "Subject: Re: Project Helios Beta Launch Success!\n\nHi [Name],\n\nThank you so much for the update! It is incredible to hear that Project Helios hit 10k active users within the first 48 hours. \n\nWe appreciate you acknowledging the hard work and the challenges we faced with the API bugs over the last two weeks. It's rewarding to see that the team's persistence led to such a successful launch.\n\nWe are looking forward to celebrating this win with everyone!\n\nBest regards,\n\n[Your Name]\nCustomer Support Team",
+      "ground_truth_reply": "That is incredible news! Thank you for the shout-out. It was definitely a stressful sprint, and those API hurdles were a challenge, but seeing the user growth makes it all worth it. I'm looking forward to the celebration\u2014thanks for leading us through the chaos!",
+      "category": "Internal Team",
+      "semantic_similarity_score": 0.4232,
+      "intent_coverage_score": 0.0,
+      "completeness_score": 0.0,
+      "tone_score": 0.6667,
+      "grounding_score": 0.5,
+      "hallucination_score": 0.0,
+      "readability_score": 0.8724,
+      "llm_judge_score": 0.0,
+      "business_rules_score": 1.0,
+      "composite_score": 26.36,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.4232,
+          "reasoning": "Semantic similarity is low (combined=0.42). Cosine similarity=0.60 captures overall meaning overlap; BERTScore F1=0.15 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.6036,
+            "bertscore_precision": 0.0234,
+            "bertscore_recall": 0.2856,
+            "bertscore_f1": 0.1525,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "completeness": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.6667,
+          "reasoning": "Generated ratings: {'formality': 4, 'professionalism': 5, 'empathy': 4, 'reasoning': 'Uses a structured corporate format with a formal sign-off and polished language while remaining warm and appreciative.'}. Reference ratings: {'formality': 2, 'professionalism': 3, 'empathy': 4, 'reasoning': \"Conversational and casual tone ('shout-out', 'chaos') suitable for internal peers, showing high emotional resonance but lower formality.\"}. Per-dimension distance: {'formality': 2, 'professionalism': 2, 'empathy': 0}. Aggregate score=0.67.",
+          "details": {
+            "generated_ratings": {
+              "formality": 4,
+              "professionalism": 5,
+              "empathy": 4,
+              "reasoning": "Uses a structured corporate format with a formal sign-off and polished language while remaining warm and appreciative."
+            },
+            "reference_ratings": {
+              "formality": 2,
+              "professionalism": 3,
+              "empathy": 4,
+              "reasoning": "Conversational and casual tone ('shout-out', 'chaos') suitable for internal peers, showing high emotional resonance but lower formality."
+            },
+            "distances": {
+              "formality": 2,
+              "professionalism": 2,
+              "empathy": 0
+            },
+            "total_distance": 4.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "readability": {
+          "score": 0.8724,
+          "reasoning": "Flesch Reading Ease=67.1 (normalised=0.67). Word count=85 (score=1.00). Avg sentence length=12.1 words (score=1.00). Grammar issues (1): Text does not end with punctuation (., !, or ?).. Combined readability=0.87.",
+          "details": {
+            "flesch_reading_ease": 67.11,
+            "flesch_normalised": 0.6711,
+            "word_count": 85,
+            "sentence_count": 7,
+            "avg_sentence_length": 12.14,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.95,
+            "grammar_issues": [
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 1
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 85 (within range).",
+                "value": 85
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "Clear, readable, and well-structured text.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [
+        "Low semantic similarity to the reference reply.",
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge."
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Re-read the email and ensure every question, request, and topic is explicitly addressed.",
+        "Provide complete answers to all questions. Avoid deferring unless genuinely necessary.",
+        "Incorporate more information from the retrieved context examples to improve grounding.",
+        "Remove any claims about dates, prices, policies, or reference numbers not supported by the source material."
+      ]
+    },
+    {
+      "id": "d359e9d4-bad9-4150-a717-5ecd21ce4f71",
+      "timestamp": "2026-07-08T04:16:54.152106",
+      "incoming_email": "Hey James, I just reviewed the client feedback for the Omega Account. Even though they had some concerns about the initial timeline, they specifically praised your technical leadership and your ability to pivot the architecture mid-stream. I'm so proud of how you handled this. Please send over the updated milestone map by EOD so I can lock it in with them.",
+      "generated_reply": "Subject: Re: Omega Account - Client Feedback\n\nHi [Sender's Name],\n\nThank you so much for sharing that feedback. I really appreciate the kind words regarding the technical leadership and the architecture pivot; it means a lot to know that the effort paid off and the client is happy with the direction.\n\nI am finalizing the updated milestone map now and will have it sent over to you by the end of the day so you can lock it in with them.\n\nBest regards,\n\nJames",
+      "ground_truth_reply": "Thanks, Elena! I really appreciate the feedback. It was a bit of a rollercoaster with the timeline shifts, but I'm glad the client values the architectural changes we made. I have attached the updated milestone map to this email for your review. Let me know if you need any further adjustments before you send it over.",
+      "category": "Internal Team",
+      "semantic_similarity_score": 0.5134,
+      "intent_coverage_score": 0.0,
+      "completeness_score": 0.0,
+      "tone_score": 0.75,
+      "grounding_score": 0.5,
+      "hallucination_score": 0.0,
+      "readability_score": 0.8667,
+      "llm_judge_score": 0.0,
+      "business_rules_score": 1.0,
+      "composite_score": 28.94,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.5134,
+          "reasoning": "Semantic similarity is moderate (combined=0.51). Cosine similarity=0.71 captures overall meaning overlap; BERTScore F1=0.22 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.7093,
+            "bertscore_precision": 0.1201,
+            "bertscore_recall": 0.32,
+            "bertscore_f1": 0.2194,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "completeness": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.75,
+          "reasoning": "Generated ratings: {'formality': 4, 'professionalism': 5, 'empathy': 4, 'reasoning': 'Polite, structured, and maintains a professional distance while expressing genuine gratitude.'}. Reference ratings: {'formality': 2, 'professionalism': 4, 'empathy': 4, 'reasoning': \"Casual tone with colloquialisms like 'rollercoaster', but remains professional and collaborative.\"}. Per-dimension distance: {'formality': 2, 'professionalism': 1, 'empathy': 0}. Aggregate score=0.75.",
+          "details": {
+            "generated_ratings": {
+              "formality": 4,
+              "professionalism": 5,
+              "empathy": 4,
+              "reasoning": "Polite, structured, and maintains a professional distance while expressing genuine gratitude."
+            },
+            "reference_ratings": {
+              "formality": 2,
+              "professionalism": 4,
+              "empathy": 4,
+              "reasoning": "Casual tone with colloquialisms like 'rollercoaster', but remains professional and collaborative."
+            },
+            "distances": {
+              "formality": 2,
+              "professionalism": 1,
+              "empathy": 0
+            },
+            "total_distance": 3.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "readability": {
+          "score": 0.8667,
+          "reasoning": "Flesch Reading Ease=65.5 (normalised=0.65). Word count=84 (score=1.00). Avg sentence length=21.0 words (score=1.00). Grammar issues (1): Text does not end with punctuation (., !, or ?).. Combined readability=0.87.",
+          "details": {
+            "flesch_reading_ease": 65.5,
+            "flesch_normalised": 0.655,
+            "word_count": 84,
+            "sentence_count": 4,
+            "avg_sentence_length": 21.0,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.95,
+            "grammar_issues": [
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 1
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 84 (within range).",
+                "value": 84
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "Clear, readable, and well-structured text.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge."
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Re-read the email and ensure every question, request, and topic is explicitly addressed.",
+        "Provide complete answers to all questions. Avoid deferring unless genuinely necessary.",
+        "Incorporate more information from the retrieved context examples to improve grounding.",
+        "Remove any claims about dates, prices, policies, or reference numbers not supported by the source material."
+      ]
+    },
+    {
+      "id": "d68e227c-d5aa-4158-92a2-960282eb62ae",
+      "timestamp": "2026-07-08T04:18:31.627811",
+      "incoming_email": "Hi Kevin, I wanted to reach out and say how much I appreciate you stepping in to cover the Lead Architect role while Sofia is on maternity leave. The transition has been seamless, and the team feels very supported. Your willingness to take on the extra load without hesitation is exactly why you're such a valued member of this org.",
+      "generated_reply": "Subject: Re: Lead Architect Role\n\nHi [Sender's Name],\n\nThank you so much for the kind words. I truly appreciate you taking the time to reach out; it means a lot to know that the transition has been seamless and that the team feels supported.\n\nI am more than happy to step in and help ensure everything continues to run smoothly while Sofia is away. It\u2019s a pleasure working with such a great group of people.\n\nPlease let me know if there is anything specific I can do to further support the team during this period.\n\nBest regards,\n\nKevin",
+      "ground_truth_reply": "Hi Rachel, thank you for the warm note. It's been a pleasure supporting the team and ensuring Sofia's projects keep moving forward in her absence. I'm glad to hear the transition has felt seamless for everyone. I'm happy to help in any way I can to keep the momentum going!",
+      "category": "Internal Team",
+      "semantic_similarity_score": 0.5414,
+      "intent_coverage_score": 0.0,
+      "completeness_score": 0.0,
+      "tone_score": 0.8333,
+      "grounding_score": 0.5,
+      "hallucination_score": 0.0,
+      "readability_score": 0.8955,
+      "llm_judge_score": 0.0,
+      "business_rules_score": 1.0,
+      "composite_score": 30.62,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.5414,
+          "reasoning": "Semantic similarity is moderate (combined=0.54). Cosine similarity=0.72 captures overall meaning overlap; BERTScore F1=0.27 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.7231,
+            "bertscore_precision": 0.1268,
+            "bertscore_recall": 0.4168,
+            "bertscore_f1": 0.269,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "completeness": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.8333,
+          "reasoning": "Generated ratings: {'formality': 4, 'professionalism': 5, 'empathy': 4, 'reasoning': 'Uses a structured corporate format with a formal sign-off and polite, appreciative language.'}. Reference ratings: {'formality': 3, 'professionalism': 4, 'empathy': 4, 'reasoning': 'Conversational and warm, but lacks the formal structure and sign-off of the generated version.'}. Per-dimension distance: {'formality': 1, 'professionalism': 1, 'empathy': 0}. Aggregate score=0.83.",
+          "details": {
+            "generated_ratings": {
+              "formality": 4,
+              "professionalism": 5,
+              "empathy": 4,
+              "reasoning": "Uses a structured corporate format with a formal sign-off and polite, appreciative language."
+            },
+            "reference_ratings": {
+              "formality": 3,
+              "professionalism": 4,
+              "empathy": 4,
+              "reasoning": "Conversational and warm, but lacks the formal structure and sign-off of the generated version."
+            },
+            "distances": {
+              "formality": 1,
+              "professionalism": 1,
+              "empathy": 0
+            },
+            "total_distance": 2.0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "readability": {
+          "score": 0.8955,
+          "reasoning": "Flesch Reading Ease=73.7 (normalised=0.74). Word count=98 (score=1.00). Avg sentence length=16.3 words (score=1.00). Grammar issues (1): Text does not end with punctuation (., !, or ?).. Combined readability=0.90.",
+          "details": {
+            "flesch_reading_ease": 73.72,
+            "flesch_normalised": 0.7372,
+            "word_count": 98,
+            "sentence_count": 6,
+            "avg_sentence_length": 16.33,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.95,
+            "grammar_issues": [
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 1
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "business_rules": {
+          "score": 1.0,
+          "reasoning": "Business rule compliance: 4/4 rules passed (score=1.00).",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 98 (within range).",
+                "value": 98
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 4,
+            "failed_rules": [],
+            "detected_category": null
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "Tone is consistent with the expected reply style.",
+        "Clear, readable, and well-structured text.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge."
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Re-read the email and ensure every question, request, and topic is explicitly addressed.",
+        "Provide complete answers to all questions. Avoid deferring unless genuinely necessary.",
+        "Incorporate more information from the retrieved context examples to improve grounding.",
+        "Remove any claims about dates, prices, policies, or reference numbers not supported by the source material."
+      ]
+    },
+    {
+      "id": "433f2466-2b40-4218-825c-e5979344b37b",
+      "timestamp": "2026-07-08T04:17:43.459077",
+      "incoming_email": "URGENT: Maya, I just got off the phone with the CEO and she is ecstatic about the prototype you demoed this morning. She wants to move the board presentation up to this Friday. I know this is a huge ask and the timing is terrible given the current system outages, but your work has created a massive opportunity for us. Can we make this happen?",
+      "generated_reply": "Subject: Re: URGENT: Board Presentation Update\n\nHi [Sender's Name],\n\nThank you for the update! It is wonderful to hear that the CEO was pleased with the prototype demo this morning.\n\nRegarding the board presentation being moved up to this Friday: yes, we can make this happen. While the current system outages are a challenge, I will prioritize the final preparations for the presentation to ensure we capitalize on this opportunity.\n\nI will send over a revised timeline and a brief list of what I need from the team to ensure everything is polished by Friday.\n\nPlease let me know if there are any other specific requirements for the updated date.\n\nBest regards,\n\nMaya",
+      "ground_truth_reply": "Hi David, that's wonderful news! I'm thrilled the CEO loved the prototype. While the current system outages are definitely making things tricky, I'm confident we can pull the presentation together by Friday. I'll clear my calendar for tomorrow to focus exclusively on the board slides and the live demo environment. We're on it!",
+      "category": "Internal Team",
+      "semantic_similarity_score": 0.5858,
+      "intent_coverage_score": 0.0,
+      "completeness_score": 1.0,
+      "tone_score": 0.0,
+      "grounding_score": 0.5,
+      "hallucination_score": 0.0,
+      "readability_score": 0.8455,
+      "llm_judge_score": 0.0,
+      "business_rules_score": 0.8,
+      "composite_score": 40.67,
+      "metric_details": {
+        "semantic_similarity": {
+          "score": 0.5858,
+          "reasoning": "Semantic similarity is moderate (combined=0.59). Cosine similarity=0.84 captures overall meaning overlap; BERTScore F1=0.21 measures contextualised token alignment. Weights: cosine=0.6, BERTScore=0.4.",
+          "details": {
+            "cosine_sim": 0.839,
+            "bertscore_precision": 0.0459,
+            "bertscore_recall": 0.3738,
+            "bertscore_f1": 0.2059,
+            "cosine_weight": 0.6,
+            "bertscore_weight": 0.4
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "intent_coverage": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasoning": "Identified 1 question(s)/request(s). Status breakdown: {'fully_addressed': 1}. Score=1.00.",
+          "details": {
+            "total_questions": 1,
+            "status_counts": {
+              "fully_addressed": 1
+            },
+            "questions": [
+              {
+                "question": "Can the board presentation be moved up to this Friday?",
+                "status": "fully_addressed",
+                "explanation": "Maya explicitly confirms that they can make the Friday deadline happen."
+              }
+            ]
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "grounding": {
+          "score": 0.5,
+          "reasoning": "No retrieved context provided \u2013 grounding cannot be measured. Returning neutral score.",
+          "details": {
+            "context_count": 0
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "tone": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "readability": {
+          "score": 0.8455,
+          "reasoning": "Flesch Reading Ease=59.4 (normalised=0.59). Word count=113 (score=1.00). Avg sentence length=16.1 words (score=1.00). Grammar issues (1): Text does not end with punctuation (., !, or ?).. Combined readability=0.85.",
+          "details": {
+            "flesch_reading_ease": 59.43,
+            "flesch_normalised": 0.5943,
+            "word_count": 113,
+            "sentence_count": 7,
+            "avg_sentence_length": 16.14,
+            "word_count_score": 1.0,
+            "sentence_length_score": 1.0,
+            "grammar_score": 0.95,
+            "grammar_issues": [
+              "Text does not end with punctuation (., !, or ?)."
+            ],
+            "grammar_issue_count": 1
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        },
+        "llm_judge": {
+          "score": 0.0,
+          "reasoning": "Metric evaluation failed: LLM request failed after 3 attempts.",
+          "details": {
+            "error": "LLM request failed after 3 attempts.",
+            "error_type": "LLMError"
+          },
+          "penalized": true,
+          "penalty_reason": "Metric raised an exception during evaluation."
+        },
+        "business_rules": {
+          "score": 0.8,
+          "reasoning": "Business rule compliance: 4/5 rules passed (score=0.80).\n  \u2717 category_complaint: Complaint emails must express empathy or apology. \u2014 requirement NOT met.",
+          "details": {
+            "rules": [
+              {
+                "rule": "word_count",
+                "passed": true,
+                "reason": "Word count is 113 (within range).",
+                "value": 113
+              },
+              {
+                "rule": "greeting",
+                "passed": true,
+                "reason": "Greeting detected."
+              },
+              {
+                "rule": "sign_off",
+                "passed": true,
+                "reason": "Sign-off detected."
+              },
+              {
+                "rule": "appropriate_language",
+                "passed": true,
+                "reason": "No inappropriate language detected."
+              },
+              {
+                "rule": "category_complaint",
+                "passed": false,
+                "reason": "Complaint emails must express empathy or apology. \u2014 requirement NOT met."
+              }
+            ],
+            "passed_count": 4,
+            "total_count": 5,
+            "failed_rules": [
+              "category_complaint"
+            ],
+            "detected_category": "complaint"
+          },
+          "penalized": true,
+          "penalty_reason": "1 business rule(s) failed."
+        },
+        "factuality": {
+          "score": 1.0,
+          "reasoning": "No contradictions found. Fully consistent with sources.",
+          "details": {
+            "contradiction_count": 0,
+            "contradictions": [],
+            "consistency_assessment": "Fully consistent with sources."
+          },
+          "penalized": false,
+          "penalty_reason": ""
+        }
+      },
+      "strengths": [
+        "Thorough coverage of questions and requests.",
+        "Clear, readable, and well-structured text.",
+        "Complies with all business rules (greeting, sign-off, length).",
+        "Factually consistent with source materials."
+      ],
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Tone mismatch with the expected reply style.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge.",
+        "Some business rules are not met. (penalty: 1 business rule(s) failed.)"
+      ],
+      "improvements": [
+        "Revise the reply to more closely match the meaning and key phrases of the expected response.",
+        "Re-read the email and ensure every question, request, and topic is explicitly addressed.",
+        "Incorporate more information from the retrieved context examples to improve grounding.",
+        "Adjust the tone to match the expected formality and empathy level.",
+        "Remove any claims about dates, prices, policies, or reference numbers not supported by the source material."
+      ]
+    }
+  ]
+}

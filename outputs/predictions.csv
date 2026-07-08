@@ -1,0 +1,940 @@
+id,category,email,ground_truth,generated,model_used,latency_ms,tokens_used,num_retrieved
+d6561065-143e-4140-904a-a71f8ae700ff,Scheduling,"Hi Sarah, regarding the Q3 review for the CloudSync implementation, we need to touch base soon. Let me know when you have a window next week to go over the things we discussed in the hallway last month.","Hi Mark, I'd be happy to sync up on the CloudSync Q3 review. To make sure I have the right data ready, could you clarify which specific points from our previous conversation you'd like to prioritize? I am available next Tuesday from 2:00 PM to 4:00 PM or Wednesday morning before 11:00 AM. Let me know if either of those work for you.","Subject: Re: Q3 review for CloudSync implementation
+
+Hi [Customer Name],
+
+I would be happy to touch base and review the CloudSync implementation for Q3, as well as the items we discussed last month.
+
+I have several windows of availability next week. Please let me know if any of the following times work for you:
+
+*   [Insert Date]: [Insert Time/Time Zone]
+*   [Insert Date]: [Insert Time/Time Zone]
+*   [Insert Date]: [Insert Time/Time Zone]
+
+If none of these options fit your schedule, feel free to send over a few dates and times that work best for you, and I will make it happen.
+
+Looking forward to catching up.
+
+Best regards,
+
+Sarah
+[Your Job Title]",gemma-4-31b,2290.46,565,0
+8d1f7bb0-ae27-47c6-b59a-61973883b9ab,Scheduling,"Hello Team, we are seeing some discrepancies in the delivery schedule for Order #88291-B. Something isn't lining up with the latest update. We need to figure this out quickly before the weekend.","Hello, thank you for flagging this. To help us resolve the discrepancies for Order #88291-B immediately, could you please specify which part of the schedule is incorrect—is it the estimated arrival date or the shipment volume? Once you provide those details, I will coordinate with our logistics team and get back to you with a corrected timeline today.","Subject: Regarding your delivery schedule for Order #88291-B
+
+Hello,
+
+Thank you for reaching out to us. I apologize for the confusion regarding the delivery schedule for Order #88291-B and understand the importance of getting this resolved before the weekend.
+
+I am currently looking into the discrepancies between your records and our latest update to identify where the misalignment is occurring. I will coordinate with our logistics team immediately to provide you with a corrected and confirmed delivery timeline.
+
+I will follow up with you as soon as I have a definitive answer, or by [Insert Timeframe, e.g., the end of the business day], to ensure everything is on track.
+
+Please let me know if you have any additional questions in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,474.82,600,0
+1e05dcc1-d483-4e72-8d4c-4dd30754ee99,Scheduling,"Regarding the maintenance window for the server migration (Ticket #4402), we might need to shift things. I'm not sure if the original slot still works given the new requirements. Can we talk about it?","Hi there, I saw your note regarding Ticket #4402. I'm happy to discuss shifting the maintenance window. Could you let me know which 'new requirements' are impacting the timing and suggest a few alternative windows that would work on your end? This will help me check our team's availability before we jump on a call.","Subject: Re: Server migration maintenance window - Ticket #4402
+
+Dear [Customer Name],
+
+Thank you for reaching out regarding the maintenance window for your server migration (Ticket #4402).
+
+We completely understand that requirements can change, and we are happy to adjust the schedule to ensure the migration aligns with your current needs. 
+
+We would be glad to discuss this with you. Please let us know your availability over the next few days, or feel free to propose a new date and time slot that works better for your team. Once we connect, we can review the new requirements and finalize a window that minimizes any potential disruption.
+
+I look forward to hearing from you.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,533.5,583,0
+250dd72c-edf7-474f-95b9-f4a0d4346c58,Scheduling,URGENT: The onboarding session for the new API suite is a mess. We need to reschedule the remaining calls for the whole team immediately because the current plan isn't working for the stakeholders.,"I'm sorry to hear that the onboarding sessions haven't met expectations. I want to get this back on track immediately. Could you please clarify which specific aspects of the current plan are not working for the stakeholders? Once I understand the pain points, I will propose a revised schedule and a modified agenda for the remaining calls to ensure they are productive.","Subject: Re: URGENT: Onboarding session for the new API suite
+
+Dear [Customer Name],
+
+I am very sorry to hear that the onboarding sessions for the API suite have not met your expectations and are not aligning with your stakeholders' needs. I understand the urgency of getting this back on track.
+
+I would be happy to reschedule the remaining calls for your entire team immediately. To ensure the new plan works for everyone, could you please provide the following:
+
+*   **Preferred Dates/Times:** A few windows of availability for your team and stakeholders over the next week.
+*   **Specific Feedback:** Any particular areas where the current plan is falling short, so I can adjust the agenda for the remaining sessions.
+
+Once I have these details, I will send over updated calendar invitations right away.
+
+Please let me know if you have any other concerns, and I look forward to resolving this for you.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,503.34,638,0
+c561d948-4b50-41a2-9045-12897f43a134,Scheduling,"Hey Jamie, I think we're almost ready for the final walkthrough of the site build. We just need to align on a few more bits and pieces first. Maybe sometime later this month?","Hi Alex, it's great to hear we're nearing the final walkthrough! To ensure we're fully prepared, could you send over the list of 'bits and pieces' that still need alignment? Once I have those, I can suggest a date toward the end of the month that gives us enough time to wrap up those items first.","Subject: Re: Site build final walkthrough
+
+Hi [Customer Name],
+
+It's great to hear that we are nearing the final walkthrough! I agree that aligning on those last few details first is the best way to ensure a smooth handover.
+
+I am available later this month. Please let me know which dates and times work best for you, or feel free to send over a calendar invite, and I will make it work.
+
+Looking forward to wrapping this up with you.
+
+Best regards,
+
+Jamie",gemma-4-31b,473.34,509,0
+4ce30a2a-2340-4e5d-8daf-536a433f922f,HR,"Dear Sarah, I am absolutely thrilled to receive the offer for the Senior Product Designer role at CloudScale! Thank you so much for the opportunity. I've reviewed the documents and everything looks wonderful. I will sign and return the contract by tomorrow morning. I can't wait to join the team!","Hi Marcus, we are just as excited to have you join us! Thank you for the quick update. Please take your time with the paperwork, and once we receive the signed contract, I'll introduce you to your manager, Elena, to coordinate your first-day logistics. Welcome aboard!","Subject: Welcome to CloudScale! - Senior Product Designer
+
+Dear [Candidate Name],
+
+Thank you for your enthusiastic response! We are absolutely delighted that you have accepted the offer for the Senior Product Designer role. The team is looking forward to having you on board.
+
+We have noted that you will sign and return the contract by tomorrow morning. Once we receive the documents, we will reach out with the next steps regarding your onboarding process.
+
+Welcome to the CloudScale team! Please let me know if you have any questions in the meantime.
+
+Best regards,
+
+Sarah
+[Your Title]
+CloudScale",gemma-4-31b,58229.05,572,0
+330662c8-b56c-4e07-ba88-ff90ea8ee693,HR,"Hi James, thank you so much for the update regarding my interview status for the Marketing Lead position. While I'm a bit disappointed that the role was filled internally, I am genuinely grateful for the positive feedback and the time your team spent with me. I'd love to stay in touch for future openings!","Hello Maya, thank you for your gracious note. While we couldn't move forward this time, the hiring team was very impressed with your portfolio and strategic approach. I have added you to our talent community and will personally reach out if a similar role opens up in Q3.","Subject: Thank you - Marketing Lead Application
+
+Dear [Customer Name],
+
+Thank you for your kind note and for your professionalism throughout the interview process.
+
+We truly appreciated the opportunity to get to know you and learn more about your experience. While we moved forward with an internal candidate for this specific role, the team was very impressed with your qualifications and the value you could bring to a team.
+
+I have noted your interest in staying connected, and we will certainly keep your profile on file for future openings that align with your skillset. Please feel free to reach out or keep an eye on our careers page for new opportunities.
+
+We wish you the very best in your current endeavors. Please let me know if there is anything else I can assist you with.
+
+Best regards,
+
+James
+[Your Title]",gemma-4-31b,1572.58,631,0
+26a6cb35-06b5-46f4-b925-1b307df9959b,HR,"Dear HR Team, I am so happy to confirm my attendance for the final round interview this Friday at 10:00 AM! Thank you for the clear instructions and the calendar invite. I've attached the updated portfolio samples you requested for the creative review. Looking forward to it!","Hi Leo, thank you for confirming! We've received your updated portfolio and have shared it with the panel. We look forward to seeing you on Friday. If you have any trouble accessing our office on 5th Ave, please feel free to call me directly.","Subject: Confirmation: Final Round Interview - [Candidate Name]
+
+Dear [Candidate Name],
+
+Thank you for your email. We have successfully received your updated portfolio samples, and we appreciate you sending them over for the creative review.
+
+We are pleased to confirm your attendance for the final round interview this Friday at 10:00 AM. We look forward to meeting with you and discussing your work further.
+
+If you have any questions before Friday, please feel free to reach out.
+
+Best regards,
+
+[Your Name/HR Team]
+[Company Name]",gemma-4-31b,404.97,551,0
+a294de0e-62cd-4bcf-946c-36496ac229c7,HR,"Hi Chloe, thank you for the offer! I am so excited about the possibility of joining the engineering team. However, I noticed a small discrepancy in the relocation stipend mentioned in the email versus the formal offer letter (Ticket #HR-9921). I'm sure it's just a typo, but could you please clarify this so I can sign today?","Hi David, thank you for bringing that to my attention! You are correct; there was a clerical error in the offer letter. I have corrected the relocation stipend to match the agreed amount of $5,000. Please find the revised document attached. Apologies for the confusion!","Subject: Regarding your relocation stipend - Ticket #HR-9921
+
+Hi [Customer Name],
+
+Thank you for your email and for your excitement about joining our engineering team! We are just as excited to have you on board.
+
+I apologize for the discrepancy between the initial email and the formal offer letter regarding your relocation stipend. I will look into Ticket #HR-9921 immediately to determine the correct amount and ensure the documentation is consistent.
+
+I will get back to you with a clarification or a corrected offer letter as soon as possible so that you can move forward with signing.
+
+Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+Chloe
+HR Team",gemma-4-31b,57611.07,602,0
+dd30ded7-03e8-4b0c-8cc1-2118e9d74b8d,HR,"Dear Mr. Henderson, I am writing to express my sincere gratitude for the internship offer at Global Logistics. I am overjoyed to accept! I noticed the start date is listed as August 1st, but as we discussed, I have a final exam on that day. Would it be possible to move my start date to August 2nd? I'm so eager to get started!","Dear Sophie, we are delighted that you've accepted the internship! That is no problem at all—your education comes first. We have updated your start date to August 2nd. We'll send over your onboarding schedule by the end of the week. Enjoy your final exams!","Subject: Internship Offer Acceptance - Global Logistics
+
+Dear [Customer Name],
+
+Thank you for your email. We are thrilled to have you join the Global Logistics team!
+
+Regarding your start date, we completely understand the importance of your final exam. We are happy to adjust your start date to August 2nd to accommodate your academic schedule.
+
+We will update our records accordingly. Please let us know if you have any other questions as you prepare for your first day.
+
+We look forward to seeing you soon!
+
+Best regards,
+
+Mr. Henderson
+[Your Title]
+Global Logistics",gemma-4-31b,1182.65,573,0
+c093e8b6-794f-4b5f-8589-9dbfe1fa553f,Billing,"Hi Support, I'm looking at my latest invoice and the total is higher than what we agreed upon in the contract. Can you please adjust this and send over a corrected version?","Hello, I would be happy to look into this pricing discrepancy for you. To ensure I'm reviewing the correct account, could you please provide your account number or the specific invoice number you are referring to? Once I have that, I will compare the charges against your contract and make any necessary adjustments.","Subject: Regarding your latest invoice
+
+Hi there,
+
+Thank you for reaching out to us. I am sorry to hear that there is a discrepancy between your latest invoice and your contract agreement.
+
+I would be happy to look into this for you. To ensure I have all the necessary details to resolve this quickly, could you please provide the invoice number in question and highlight the specific line items that differ from your contract?
+
+Once I have this information, I will review your account and the agreed-upon terms. If an error was made, I will adjust the balance and send a corrected version of the invoice to you immediately.
+
+Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,648.86,578,0
+900b4fe5-eed4-4c26-bfe7-f246a61dc4a4,Billing,"Hey team, we need to update the credit card on file for our monthly subscription immediately. Our current card expires at the end of the month and we can't afford any service interruptions for our team.","Hi there, we can certainly help you update your payment method to prevent any downtime. For security reasons, please do not send your card details via email. Could you please let me know which email address is associated with the primary billing account? I will then send you a secure, encrypted link to our payment portal where you can update your details safely.","Subject: Updating your payment information
+
+Hello,
+
+Thank you for reaching out. We understand how important it is to maintain uninterrupted service for your team, and we would be happy to help you update your billing details.
+
+To update the credit card on file, please follow these steps:
+1. Log in to your account dashboard.
+2. Navigate to the **Billing** or **Subscription** section.
+3. Select **Payment Methods** and enter your new card details.
+4. Save the changes to ensure your next monthly payment is processed successfully.
+
+Once updated, your subscription will continue seamlessly without any service interruption.
+
+If you encounter any issues while updating your information or if you have any further questions, please let us know and we will be happy to assist you further.
+
+Best regards,
+
+[Your Name/Company Name] Support Team",gemma-4-31b,477.49,610,0
+bdfd3eb8-bc0e-4176-8ca0-4c7e5ecebf94,Billing,"Hello, I believe I was double-charged for the software licenses last month. I see two identical transactions on my bank statement. Could you check this and issue a refund?","Hello, I'm sorry to hear about the duplicate charge. I'll get this sorted out for you right away. To locate the transactions, could you please provide the dates of the charges and the last four digits of the card that was billed? As soon as I verify the duplicate, I will process the refund to your original payment method.","Subject: Regarding your billing inquiry - Software Licenses
+
+Hello,
+
+Thank you for reaching out to us. I am sorry to hear that you have seen duplicate charges on your bank statement; I understand how concerning this can be and I would be happy to look into this for you.
+
+To help me investigate these transactions and process a refund if a double-charge occurred, could you please provide the following details:
+
+*   The email address associated with your account.
+*   The dates and exact amounts of the two identical transactions.
+*   The last four digits of the card that was charged.
+
+Once I have this information, I will review your billing history immediately. If a duplicate payment is confirmed, I will issue a refund to your original payment method right away.
+
+Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name/Company Name]
+Customer Support Team",gemma-4-31b,57896.16,618,0
+0405a8d8-5a1d-4fe4-a98d-35baa0843f3d,Billing,"Hi, I'm interested in switching our current billing cycle from monthly to annually to take advantage of the discount. Let me know if this is possible.","Hi! Yes, we absolutely offer an annual billing option, and it's a great way to save on your subscription costs. To make the switch, could you please confirm the name of the plan you are currently on and the number of seats you require for the coming year? I'll then send over the updated terms and the new invoice.","Subject: Request to switch to annual billing
+
+Hello,
+
+Thank you for reaching out. I would be happy to help you switch your billing cycle.
+
+Yes, it is absolutely possible to move from a monthly to an annual billing plan to take advantage of the discount. 
+
+To ensure I apply this change to the correct account and provide you with the exact discount details for your specific plan, could you please provide your account email address or account ID? Once I have that information, I can process the switch for you or guide you through the steps to complete it in your settings.
+
+Please let me know if you have any other questions!
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,520.76,557,0
+9bd0e176-f859-4930-96ab-821d08fd64e5,Billing,"Support, I received a notification that my payment failed, but I'm sure my funds are available. Please fix this so my account isn't suspended.","Hello, I apologize for the frustration caused by the payment failure. I want to make sure your service remains active. Could you please provide the ticket number from the notification you received or the email address linked to the account? This will allow me to check the specific error code from our payment processor and resolve the issue.","Subject: Regarding your payment notification
+
+Hello,
+
+Thank you for reaching out to us. I am sorry to hear that you received a payment failure notification despite having sufficient funds available.
+
+To help us resolve this and ensure your account remains active, please try the following steps:
+
+*   **Verify Payment Details:** Double-check that the card information on file (expiry date and CVV) is current.
+*   **Contact Your Bank:** Occasionally, banks may flag recurring payments for security reasons. Confirming with your provider that the transaction is authorized can often resolve the issue.
+*   **Retry Payment:** Once verified, you can attempt to process the payment again through your account billing dashboard.
+
+If you have already tried these steps or if the payment continues to fail, please let me know. I will be happy to escalate this to our billing specialists to investigate further and ensure your account is not suspended.
+
+Please feel free to reach out if you have any other questions.
+
+Best regards,
+
+[Your Name/Company Name] Support Team",gemma-4-31b,531.81,651,0
+c9c544e9-db5f-431a-baac-e70e22f463fc,Complaint,"Hi Team, regarding the shipment from last Tuesday (PO #8821), things aren't quite right. We noticed some discrepancies in the portal and it's causing a bit of a headache for our logistics lead. Can you look into this and let us know what's going on?","Hello, thank you for reaching out. I'm sorry to hear there are discrepancies with PO #8821. To help me resolve this quickly, could you please specify which details in the portal are incorrect (e.g., quantity, tracking numbers, or SKU details)? Once I have those specifics, I will coordinate with our warehouse and get this corrected for you immediately.","Subject: Regarding your shipment PO #8821
+
+Hi there,
+
+Thank you for reaching out. I am sorry to hear that there are discrepancies regarding your shipment from last Tuesday (PO #8821) and for the frustration this is causing your logistics lead.
+
+I will look into the portal records and the shipment details immediately to identify where the errors are occurring. Once I have a clear understanding of the situation, I will follow up with you to explain what happened and provide a resolution.
+
+I will get back to you as soon as I have an update. Please let me know if there is any additional information you can provide in the meantime to help speed up the investigation.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,485.86,592,0
+583f0f54-7e0c-43bb-9774-d20d887e65fc,Complaint,"Dear Support, we've been using the Apex-500 units for a month now. Generally, we are happy with the performance, but there's a recurring issue with the interface that we mentioned in a call last week. It's still happening. Please fix it.","Dear Partner, we're glad to hear you're happy with the Apex-500 performance! Regarding the interface issue mentioned in your previous call, I want to ensure we address the exact bug you're encountering. Could you please provide a brief description of the error or a screenshot of the interface behavior? I will then escalate this to our technical team for a permanent fix.","Subject: Regarding your Apex-500 interface concerns
+
+Dear Customer,
+
+Thank you for reaching out to us. We are glad to hear that you are generally happy with the performance of your Apex-500 units, but we sincerely apologize that the interface issue you reported last week remains unresolved.
+
+I would like to get this fixed for you as quickly as possible. To ensure I have the most current information and can coordinate with our technical team, could you please provide the following:
+
+*   A brief description of the specific behavior you are experiencing with the interface.
+*   Any screenshots or screen recordings of the issue, if possible.
+*   The serial numbers of the units most affected.
+
+Once I have these details, I will escalate this to our engineering team for an immediate review and provide you with a timeline for the fix.
+
+Thank you for your patience. Please let me know if there is anything else I can assist you with in the meantime.
+
+Best regards,
+
+[Your Name/Company Name]
+Customer Support Team",gemma-4-31b,543.15,663,0
+c1d13016-8306-48a4-9e5f-07b21fe9e8b0,Complaint,URGENT: Invoice #INV-2024-09. The payment status is showing as 'Pending' but our accounts team says otherwise. This needs to be sorted now or the next batch will be delayed. Please advise.,"Hello, thank you for bringing this to our attention. I understand the urgency regarding Invoice #INV-2024-09. To resolve this conflict, please send over a copy of the payment confirmation or the transaction ID from your accounts team. I will personally work with our finance department to manually update your status and ensure there is no delay to your next batch.","Subject: Regarding Invoice #INV-2024-09
+
+Dear Customer,
+
+Thank you for reaching out. I apologize for the confusion regarding the payment status of Invoice #INV-2024-09 and any stress this has caused your team.
+
+I understand the urgency of resolving this to ensure your next batch is not delayed. I am looking into this immediately to determine why our system is still showing the status as ""Pending"" despite your accounts team's records.
+
+To help me resolve this quickly, could you please provide a copy of the payment confirmation or the transaction reference number? Once I have this, I can manually update the status and ensure your account is cleared for the next batch.
+
+I will prioritize this request and keep you updated on the progress. Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,57936.85,613,0
+90ea1093-89d5-495d-a7f6-a9e19c37513a,Complaint,"Hi Sarah, we're looking at the quarterly report you sent over. Some of the numbers for the Q3 projections seem off compared to what we discussed. Can you double-check the data and get back to us?","Hi there, I'd be happy to review those figures for you. To make sure I'm looking at the same areas you are, could you please point out which specific line items or projections seem inconsistent with our previous discussions? I'll perform a full audit of the Q3 data and send over a corrected version as soon as possible.","Subject: Re: Quarterly Report - Q3 Projections
+
+Hi [Customer Name],
+
+Thank you for bringing this to my attention. I apologize for any discrepancy in the Q3 projections.
+
+I will conduct a thorough review of the data and cross-reference it with our previous discussions to ensure everything is accurate. Once I have double-checked the numbers, I will send over the corrected report or provide a detailed explanation of the figures.
+
+I expect to have an update for you by [Insert Timeframe, e.g., end of day tomorrow].
+
+Please let me know if there are specific line items you'd like me to prioritize.
+
+Best regards,
+
+Sarah [Your Last Name]
+[Your Job Title]",gemma-4-31b,457.79,563,0
+061b0fc2-7914-4b2a-b000-a45368cc1180,Complaint,"Hello, we are having some trouble with the new API integration (Ticket #44021). It's just not behaving as expected during the sync process. We've tried a few things but it's still not quite there. Help?","Hello, I'm sorry to hear the API integration isn't behaving as expected. To help me troubleshoot Ticket #44021, could you provide the specific error codes you're receiving or describe exactly how the sync is failing (e.g., timed out, data mismatch, or authentication error)? Once I have those details, I can provide a technical solution or hop on a quick call to resolve this.","Subject: Re: API integration issues - Ticket #44021
+
+Hello,
+
+Thank you for reaching out. I am sorry to hear that the new API integration is not behaving as expected during the sync process. I understand how frustrating it is when a technical setup doesn't work smoothly after you've already attempted to troubleshoot it.
+
+To help us resolve this as quickly as possible, could you please provide a few more details?
+
+*   **Specific Behavior:** Could you describe exactly how the sync is misbehaving (e.g., specific error codes, timed-out requests, or data discrepancies)?
+*   **Steps Taken:** You mentioned you've tried a few things—could you list the steps you've already taken so we don't ask you to repeat them?
+*   **Logs:** If available, please share any recent API logs or request/response payloads associated with the failed syncs.
+
+Once I have this information, I will coordinate with our technical team to investigate Ticket #44021 and find a solution.
+
+Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,557.9,670,0
+39b8a05a-133e-4c9a-b650-f13bfbb52840,Partnership,"Hi Sarah, I'm from CloudScale and would love to discuss a potential API integration partnership for Q3. Do you have time next Tuesday?",Hi there! We'd be very interested in exploring an integration with CloudScale. Tuesday works for me—does 2:00 PM EST fit your schedule?,"Subject: Partnership Inquiry: CloudScale & API Integration
+
+Hello,
+
+Thank you for reaching out. We appreciate your interest in partnering with us for an API integration.
+
+I would be happy to discuss how CloudScale and our team can collaborate for Q3. I am available next Tuesday; please let me know what time works best for you, or feel free to send over a calendar invitation.
+
+I look forward to connecting with you.
+
+Best regards,
+
+Sarah
+[Your Title]",gemma-4-31b,628.12,498,0
+de17b38b-02fb-4dd3-b8dc-2532e835ee92,Partnership,"Regarding our joint venture agreement, the revised clauses in Section 4 are completely unacceptable. We need this fixed immediately.",I apologize for the frustration caused by the recent revisions. I am meeting with our legal team now to address Section 4 and will send over a corrected draft by end-of-day.,"Subject: Regarding the Joint Venture Agreement - Section 4
+
+Dear [Customer Name],
+
+Thank you for reaching out. I have received your feedback regarding the revised clauses in Section 4 of the joint venture agreement.
+
+I understand that the current language is unacceptable to you and that this is a priority. To ensure we resolve this immediately and accurately, I am escalating this matter to our legal team and the partnership managers for an urgent review.
+
+We would like to ensure the next iteration aligns with your expectations. If you have specific redlines or preferred language for these clauses, please share them with us so we can incorporate your requirements into the revision.
+
+I will follow up with you as soon as I have an update from the team. Please let me know if you have any other concerns in the meantime.
+
+Best regards,
+
+[Your Name]
+[Your Title]",gemma-4-31b,485.34,600,0
+e84a6557-2d02-4f2b-ae6c-0c6de7e51d3f,Partnership,"Hello, I'm checking in on the status of the co-marketing assets for the October 12th launch. Are they ready for review?",Hello! The assets are currently in the final design phase. I will have the review link sent over to you by tomorrow morning.,"Subject: Status Update: Co-marketing assets for October 12th launch
+
+Hello,
+
+Thank you for reaching out to check on the status of the assets for the upcoming October 12th launch.
+
+I am currently confirming the final status of these materials with our creative team to ensure everything is aligned with the project scope. I will provide you with a definitive update and, if available, the files for your review by [Insert Timeframe, e.g., the end of the business day tomorrow].
+
+Thank you for your patience. Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name]
+[Your Title]",gemma-4-31b,58312.15,534,0
+2063959e-9894-4419-a733-bc2a85d94f40,Partnership,"We love the new product direction, but the current revenue share split feels a bit unfair to us. Can we renegotiate?",I'm glad you're excited about the product direction. I'm open to discussing the revenue split to ensure it's equitable for both parties; let's jump on a call Friday to find a middle ground.,"Subject: Regarding your revenue share agreement
+
+Dear [Customer Name],
+
+Thank you for your kind words regarding our new product direction. We are thrilled to hear that you are aligned with where the product is heading.
+
+Regarding your concerns about the current revenue share split, we are open to discussing how we can make this partnership more equitable and sustainable for both parties. We value your partnership and want to ensure you feel the arrangement is fair.
+
+To move this forward, I would like to schedule a brief call to understand your specific concerns and discuss potential adjustments. Please let me know your availability over the next few days, or feel free to send over a proposal for the split you have in mind.
+
+I look forward to hearing from you.
+
+Best regards,
+
+[Your Name]
+[Your Title]",gemma-4-31b,437.84,582,0
+004e0023-3b05-449b-81e9-a23d1c656441,Partnership,"URGENT: Our shared portal is down, and partners cannot access their dashboards. Please investigate Ticket #8821 now.",I have received the alert for Ticket #8821 and our engineering team is already working on a fix. I will provide you with status updates every 30 minutes until the portal is back online.,"Subject: Re: URGENT: Shared portal access issues - Ticket #8821
+
+Hello,
+
+Thank you for reaching out. I sincerely apologize for the disruption this is causing you and your partners.
+
+I have located Ticket #8821 and have escalated it to our technical team for immediate investigation. We understand the urgency of restoring access to the partner dashboards and are prioritizing this as a critical issue.
+
+I will monitor the progress of the investigation and provide you with an update as soon as I have more information or a projected timeline for the fix.
+
+Please let me know if there are any additional details you would like me to pass along to the engineering team.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,419.51,559,0
+31521e73-e630-4230-a08a-f652bf646267,Logistics,"Hi Sarah, we're preparing the shipment for Order #88219 (Industrial HVAC units) for next Tuesday. However, we noticed the delivery address on the PO is listed as the main warehouse, but the shipping instructions mention the new site in East Plano. Could you clarify which location is correct? Also, do we need to arrange for a lift-gate truck, or does the site have a loading dock? Lastly, can you confirm if the site manager will be available for the 09:00 AM window?","Hi Mark, thanks for catching that. Please ship Order #88219 to the new site in East Plano. Regarding the equipment, the site does have a loading dock, so a lift-gate is not necessary. I've checked with the site manager, and he will be available for the 09:00 AM window next Tuesday. Let me know if you need anything else!","Subject: Re: Shipping Clarification - Order #88219 (Industrial HVAC units)
+
+Hi [Sender Name],
+
+Thank you for reaching out and for catching the discrepancy in the shipping instructions for Order #88219.
+
+To ensure the Industrial HVAC units are delivered correctly, please see the clarifications below:
+
+*   **Delivery Address:** Please ship the order to the new site in East Plano. Please disregard the main warehouse address listed on the PO.
+*   **Equipment Requirements:** The East Plano site is equipped with a loading dock, so a lift-gate truck will not be necessary for this delivery.
+*   **Site Manager Availability:** I can confirm that the site manager will be available to receive the shipment during the 09:00 AM window next Tuesday.
+
+Please let me know if you need any further information to finalize the shipment.
+
+Best regards,
+
+Sarah [Your Last Name]
+[Your Job Title]",gemma-4-31b,597.89,688,0
+a43feba0-dfa2-4e2e-a3f5-0b568f190375,Logistics,"URGENT: Regarding Shipment #LX-4401. We've encountered a major issue at the port; the container has been flagged for a random customs inspection, which will delay arrival by at least 4 days. Do you want us to attempt to expedite the remaining pallets via air freight to cover the immediate shortage, or should we just hold everything until the container clears? Also, who should we bill for the additional demurrage charges incurred during this hold?","This is a critical delay, thank you for the immediate update. Please go ahead and expedite 5 pallets via air freight to ensure our production line doesn't stop; send over the cost estimate for approval immediately. As for the demurrage charges, please bill those to our corporate account under the 'Logistics Contingency' code. Keep us posted daily on the customs status.","Subject: Regarding Shipment #LX-4401 - Customs Delay
+
+Dear [Customer Name],
+
+Thank you for notifying us about the status of Shipment #LX-4401. We appreciate the urgent update regarding the customs inspection.
+
+Regarding the options you presented:
+
+*   **Shipping Method:** Please proceed with expediting the remaining pallets via air freight. It is critical that we cover the immediate shortage to avoid further operational disruptions.
+*   **Remaining Cargo:** Please hold the rest of the container until it clears customs and is ready for standard transport.
+
+Concerning the additional demurrage charges, please send the invoice and supporting documentation to our billing department at [Insert Email Address/Department]. We will review the charges and process the payment accordingly.
+
+Please keep us updated on the estimated arrival date for the air freight pallets and the status of the container.
+
+Best regards,
+
+[Your Name]
+[Your Title]",gemma-4-31b,914.25,698,0
+9fc0c4d9-78a7-46ca-9c20-3d8fb902e083,Logistics,"Hello Team, we are reviewing our quarterly logistics KPIs and noticed a discrepancy in the fuel surcharge calculations for October. Could you provide the baseline index you used for the calculation? Additionally, we're looking to update our contact list—who is the current primary point of contact for billing disputes? Finally, are you open to discussing a new fixed-rate contract for the Q1 period starting January 1st?","Hello James, I've attached the baseline index sheet we used for October's fuel surcharges for your review. For any billing disputes moving forward, please contact Elena Rodriguez at erodriguez@logistics-corp.com. Regarding the Q1 contract, we are definitely open to discussing fixed rates. Would next Thursday at 2 PM work for a brief call to go over the terms?","Subject: Re: Inquiry regarding October fuel surcharges and Q1 contract
+
+Hello,
+
+Thank you for reaching out. I would be happy to assist you with your quarterly KPI review and your questions regarding your account.
+
+To address your points:
+
+*   **Fuel Surcharge Baseline:** I am currently verifying the exact baseline index used for the October calculations to ensure the information I provide is accurate. I will follow up with those specific details shortly.
+*   **Billing Contact:** The primary point of contact for all billing disputes is our Billing Department. You can direct all future correspondence to billing@company.com [or insert specific name if known], and they will be able to assist you with any discrepancies.
+*   **Q1 Fixed-Rate Contract:** Yes, we are certainly open to discussing a new fixed-rate contract for the period starting January 1st. 
+
+Would you like to schedule a brief call next week to discuss the terms for the Q1 contract, or would you prefer that we send over a preliminary proposal via email?
+
+Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,58514.19,742,0
+b93cd34a-edae-4ad8-972f-b1b51c1bb449,Logistics,"Hi Jordan, we've received the return shipment for the defective sensors (RMA #5592), but the packaging was severely damaged upon arrival, and two units are missing from the box. Was the shipment insured for the full value? Do you have the carrier's BOL with the weight recorded at pickup? Also, since the shipment is incomplete, should we process the partial refund now or wait until you track down the missing units?","Hi Alex, I'm sorry to hear about the damage and the missing units. Yes, the shipment was fully insured; I have attached the original BOL which confirms the weight at pickup. Please hold off on the refund for now. I will contact the carrier to open a claim for the missing items and will update you by Friday on whether we can locate the remaining two sensors.","Subject: Re: Return shipment for RMA #5592 - Defective Sensors
+
+Hi [Customer Name],
+
+Thank you for notifying us that the shipment for RMA #5592 has arrived and for bringing the damaged packaging and missing units to our attention.
+
+To address your questions:
+
+*   **Insurance:** I am currently verifying the insurance coverage for this shipment to confirm if it was insured for the full value. I will update you as soon as I have confirmation from our logistics team.
+*   **Bill of Lading (BOL):** I am retrieving the carrier's BOL to verify the recorded weight at the time of pickup. I will forward a copy of this document to you shortly.
+*   **Refund Process:** Please hold off on processing the refund for now. We would prefer to track down the missing units or resolve the claim with the carrier before finalizing the transaction.
+
+I will follow up with the insurance details and the BOL as quickly as possible. Please let me know if you need any further information in the meantime.
+
+Best regards,
+
+Jordan
+[Your Title/Company]",gemma-4-31b,858.81,712,0
+3d8ff6c0-0065-401f-8737-5f87d7088a6d,Logistics,"Hi there, we are planning the pickup for the bulk textile order (PO #T-202) this Friday. We noticed that the pallet dimensions provided in the initial quote are slightly smaller than the actual load. Will the current carrier still be able to accommodate the extra 12 inches in width, or do we need to request a larger vehicle? Also, is there a specific gate number the driver should use for entry? Lastly, can you confirm the latest possible pickup time for Friday afternoon?","Hi Taylor, thanks for the heads-up on the dimensions. I've checked with the carrier, and they can accommodate the extra width without needing a larger vehicle. Please instruct the driver to enter through Gate 4. The latest pickup time we can accommodate on Friday is 4:30 PM. Safe travels!","Subject: Pickup Coordination for PO #T-202
+
+Hi there,
+
+Thank you for reaching out to coordinate the pickup for your bulk textile order (PO #T-202) this Friday.
+
+Regarding your questions:
+
+*   **Vehicle Capacity:** I will need to verify with our carrier if the additional 12 inches in width will fit in the currently assigned vehicle. I will get a confirmation from them and let you know shortly if we need to request a larger vehicle.
+*   **Gate Entry:** Please instruct your driver to use **Gate [Insert Gate Number/Location]** for entry.
+*   **Pickup Deadline:** The latest possible pickup time for Friday afternoon is **[Insert Time, e.g., 4:00 PM]**.
+
+I will follow up with you as soon as I have the carrier's confirmation regarding the pallet dimensions. Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,842.07,689,0
+7a0dfaf2-b2ea-4a96-af2a-4f8a409c363a,Technical Issue,"Hi IT Support,
+
+I'm writing to report a persistent issue with my workstation (Asset ID: WS-9921) that started after the OS update last Tuesday. Every time I attempt to launch the Adobe Creative Cloud suite, specifically Premiere Pro, the system hangs for about 30 seconds and then throws a 'Kernel Security Check Failure' blue screen. 
+
+I've already tried clearing the cache and restarting the machine multiple times, but the crash happens consistently during the splash screen loading phase. This is becoming a major bottleneck for the Q3 Marketing campaign as I have three high-priority video edits due by Friday. I've attached the crash logs from the Event Viewer for your review. Could someone please look into this as soon as possible?
+
+Best regards,
+
+Marcus Thorne
+Senior Video Editor","Hi Marcus,
+
+Thank you for providing those crash logs and the asset ID; it helps us narrow things down significantly. Based on the 'Kernel Security Check Failure' you're seeing, it looks like there is a driver conflict between the new OS update and your current GPU drivers.
+
+I have opened ticket #88210 for you. I can remote into your system at 2:00 PM today to perform a clean installation of the latest studio drivers, which should resolve the conflict with Premiere Pro. If that doesn't work, we may need to roll back the OS update temporarily to ensure you hit your Friday deadline. 
+
+I'll send a calendar invite shortly. Let me know if that time works for you.
+
+Best,
+
+Sarah Jenkins
+IT Desktop Support","Subject: Support Request: Workstation WS-9921 - Adobe Premiere Pro Crash
+
+Dear Marcus,
+
+Thank you for reaching out and providing the Asset ID and crash logs. I understand how critical these video edits are for the Q3 Marketing campaign, and I apologize for the disruption this is causing to your workflow.
+
+Based on your description, the ""Kernel Security Check Failure"" occurring immediately after an OS update suggests a driver conflict or a system incompatibility triggered by the update.
+
+To resolve this as quickly as possible, we will take the following steps:
+
+*   **Log Analysis:** Our technical team is currently reviewing the Event Viewer logs you attached to pinpoint the specific driver causing the blue screen.
+*   **Troubleshooting:** We will determine if a driver rollback or a specific Adobe patch is required to stabilize your system.
+*   **Urgency:** Given your Friday deadline, we have prioritized this ticket to ensure your workstation is operational as soon as possible.
+
+A technician will contact you shortly to either perform a remote session or visit your desk to implement the fix.
+
+If you have any further details to add or if the situation changes, please let us know.
+
+Best regards,
+
+[Your Name]
+IT Support Team",gemma-4-31b,1003.7,859,0
+fa48ec58-43c7-4892-a785-8d90d54c094b,Technical Issue,"Dear Help Desk,
+
+I am currently trying to set up the new Salesforce integration for the Northeast Sales team, but I've run into a snag with the API authentication. I've followed the documentation provided in the onboarding wiki (section 4.2), but I keep receiving a '403 Forbidden' error when attempting to map the lead fields from our legacy CRM.
+
+I've verified that my user permissions are set to 'System Administrator' within the sandbox environment, and I've refreshed my OAuth tokens twice. It's strange because my colleague, Janet, is seeing the same error on her machine, which suggests it might be a permission issue at the organizational level rather than a local configuration error. 
+
+We aren't in a rush to go live until next month, but I'd like to get the mapping finalized this week so we can begin UAT. Could you check if there are any IP restrictions or firewall rules blocking the request from the legacy server?
+
+Thanks,
+
+David Chen
+Sales Operations Manager","Hi David,
+
+Thanks for reaching out and for providing such detailed troubleshooting steps. Since both you and Janet are experiencing the 403 Forbidden error despite having Admin permissions, you're likely correct that this is an organizational or network-level restriction.
+
+I checked our firewall logs and noticed that the legacy CRM server's IP address isn't currently whitelisted for the Salesforce API endpoint. I have updated the whitelist to include that range. Could you please try the mapping again and let me know if the error persists?
+
+If you're still seeing the 403, please send me the exact timestamp of your last attempt so I can trace the request in the logs.
+
+Best regards,
+
+Kevin Miller
+Systems Administrator","Subject: Re: Salesforce Integration Issue - Northeast Sales Team
+
+Dear David,
+
+Thank you for reaching out. I am sorry to hear that you and Janet are encountering a '403 Forbidden' error while mapping your lead fields.
+
+Since you have already verified your System Administrator permissions and refreshed your OAuth tokens, and given that the issue is persisting across multiple machines, it does appear that this is a broader configuration or connectivity issue.
+
+To address your concerns, I will take the following steps immediately:
+
+*   **IP and Firewall Review:** I will coordinate with our network team to check for any IP restrictions or firewall rules that may be blocking requests originating from your legacy CRM server.
+*   **Organizational Permissions:** I will investigate whether there are any organizational-level restrictions or API access policies within the sandbox environment that could be triggering the 403 error.
+
+I understand you would like to have the mapping finalized this week to stay on track for your UAT. I will prioritize this investigation and provide you with an update as soon as I have more information from our technical team.
+
+Please let me know if there are any other details or error logs you can provide in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,1035.06,923,0
+7efbe8e3-7333-4f7f-a863-7093b6daa2ac,Technical Issue,"URGENT: Production Server Down - Cluster B
+
+To the DevOps Team,
+
+We have a critical outage on Cluster B affecting the client-facing checkout portal. As of 08:15 AM EST, we are seeing a massive spike in 504 Gateway Timeout errors. I've checked the monitoring dashboard and it looks like the pods are stuck in a CrashLoopBackOff state.
+
+I attempted a rolling restart of the deployment, but the health checks are still failing. It seems like the recent deployment (v2.4.1) might have introduced a memory leak or a database connection pool exhaustion issue. We are currently losing an estimated $5k in revenue per hour, and the CEO is requesting an update every 15 minutes.
+
+Please prioritize this immediately. I am available on Slack and via mobile if you need a bridge call.
+
+Regards,
+
+Elena Rodriguez
+Lead Backend Engineer","Elena,
+
+We are on it. I've acknowledged the alert and the rest of the DevOps team is currently in the war room. 
+
+We've identified that the v2.4.1 deployment caused a deadlock in the connection pool due to an unclosed session in the new payment module. We are initiating an immediate rollback to v2.4.0 to restore service while we debug the leak in the staging environment. 
+
+You should see the 504 errors subside within the next 5-10 minutes as the stable pods spin up. I will provide a full Post-Mortem report by end-of-day tomorrow.
+
+Standing by for further updates.
+
+Mark Sloan
+DevOps Lead","Subject: Re: URGENT: Production Server Down - Cluster B
+
+Dear Elena,
+
+We have received your report regarding the outage on Cluster B and the 504 Gateway Timeout errors affecting the checkout portal. We recognize the criticality of this situation and the impact on revenue; this is now our highest priority.
+
+Our team is taking the following immediate actions:
+
+*   **Investigation:** We are currently analyzing the logs for the pods in `CrashLoopBackOff` to confirm if the issue is indeed a memory leak or connection pool exhaustion linked to version v2.4.1.
+*   **Mitigation:** We are evaluating an immediate rollback to the previous stable version to restore service while we debug the root cause of the health check failures.
+*   **Communication:** We acknowledge the request for updates every 15 minutes. We will provide these updates via this email thread and on Slack to ensure the CEO and stakeholders are kept informed.
+
+We will reach out via Slack immediately if we need to jump on a bridge call for further coordination.
+
+Best regards,
+
+[Your Name/Department]
+DevOps Team",gemma-4-31b,57905.48,828,0
+d7f49c8d-942c-4b71-a5fb-a9af00791882,Technical Issue,"Hello Support,
+
+I'm writing to let you know that the new internal knowledge base (Wiki2.0) is working wonderfully! The search functionality is a huge improvement over the old system, and my team has already migrated about 50 pages of documentation over the weekend.
+
+However, I did notice one small quirk. When uploading PDF attachments larger than 10MB, the system accepts the file but then fails to generate a preview thumbnail, showing a broken image icon instead. It doesn't seem to affect the actual download of the file, but it makes the page look a bit unpolished.
+
+It's not a dealbreaker by any means, and we're overall very happy with the transition, but I thought I'd mention it in case it's a known bug or something that can be tweaked in the settings.
+
+Cheers,
+
+Samantha Wu
+HR Coordinator","Hi Samantha,
+
+I'm so glad to hear that the team is enjoying Wiki2.0 and that the migration is going smoothly! It's great to know the search functionality is making a difference for your workflow.
+
+Regarding the PDF thumbnails: you've spotted a known limitation. Currently, the preview generator is capped at 10MB to prevent server latency during page loads. For files larger than that, the system defaults to a generic icon, though as you noted, the file itself remains fully accessible.
+
+I've passed this feedback along to the product team to see if we can optimize the generator for larger files. In the meantime, if you have critical documents that need previews, you might try compressing the PDFs slightly before upload.
+
+Thanks for the positive feedback!
+
+Best,
+
+Liam O'Connor
+IT Product Manager","Subject: Re: Feedback on Wiki2.0 - PDF Preview Issue
+
+Hello Samantha,
+
+Thank you for reaching out and for the wonderful feedback! We are thrilled to hear that your team is finding the new search functionality helpful and that the migration of your documentation is off to a great start.
+
+Regarding the issue with PDF thumbnails: thank you for bringing this to our attention. While it is great to know that the files are downloading correctly, we certainly want the interface to look polished.
+
+I am not currently aware of a specific setting to tweak for this, so I have escalated this detail to our technical team to determine if this is a known bug related to file size limits for preview generation. I will keep you updated as soon as I have more information on a fix or a workaround.
+
+Please let me know if you encounter any other quirks or if there is anything else I can assist you with in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,2262.92,791,0
+408cdf19-3184-43bd-9f3c-e5a039fb2a8f,Technical Issue,"Hi IT,
+
+I'm having a very frustrating morning with the VPN (GlobalProtect). Since the update last night, I can connect to the gateway, but I cannot access any of the internal file shares (S: drive and T: drive). 
+
+I can ping the servers, and my email is working fine, but the mapped drives just keep saying 'Network path not found.' I've tried disconnecting and reconnecting the VPN, and I've even rebooted my laptop twice. I'm working from home today and I need those files to prepare for the 11 AM board meeting. 
+
+I've been a power user of this system for years and it's never been this unstable. I really need this resolved within the hour or I'll have to drive into the office, which is a two-hour commute.
+
+Thanks,
+
+Robert Sterling
+VP of Finance","Dear Robert,
+
+I apologize for the frustration and the inconvenience this is causing, especially with your board meeting approaching. 
+
+It appears that the VPN update reset the DNS suffix for some remote users, which is why you can ping the servers by IP but cannot resolve the mapped drive paths (the 'Network path not found' error).
+
+I can fix this for you in about two minutes. Please click the 'Join Session' link I just sent to your email so I can remotely access your machine. I will manually update your DNS settings and re-map the S: and T: drives for you immediately.
+
+I'll stay on the line until we verify that you can open your files.
+
+Best regards,
+
+Jameson Holt
+Senior Network Engineer","Subject: Urgent: VPN Connectivity Issue - Internal File Shares
+
+Dear Mr. Sterling,
+
+I am sorry to hear about the frustration this morning and the impact this is having on your preparations for the 11 AM board meeting. I understand the urgency of regaining access to your S: and T: drives to avoid an unnecessary commute.
+
+Since you can connect to the gateway and ping the servers, your basic VPN tunnel is active, but it appears there is a mapping or authentication issue following last night's update.
+
+To resolve this quickly, please try the following:
+*   **Refresh Connection:** While connected to GlobalProtect, please try manually browsing to the file share by typing `\\server_name` (replacing 'server_name' with the server address) into your File Explorer address bar.
+*   **Credential Check:** If prompted, please re-enter your network credentials to ensure the update didn't clear your cached login.
+
+If these steps do not immediately restore access, please let me know. I will prioritize an immediate remote session to manually remap your drives or escalate this to our network engineers to ensure you are online well before your meeting.
+
+I am standing by for your reply.
+
+Best regards,
+
+[Your Name]
+IT Support Team",gemma-4-31b,1285.41,846,0
+f45b6d85-16a4-40b8-a953-830114937664,Internal Team,"Hi Sarah, I just saw the final Q3 performance report you put together for the executive team. The data visualization is absolutely stunning, and you managed to make the complex churn metrics so easy to understand. Truly fantastic work! No rush on anything else today, just wanted to send a quick thank you.","Hi Mark, thank you so much for the kind words! I'm really glad the visualizations hit the mark and that the churn metrics are clear for the execs. I appreciate you taking the time to let me know. I'll be diving into the Q4 planning now, but I'm happy to tweak any slides if the leadership team has follow-up questions.","Subject: Re: Q3 performance report
+
+Hi [Sender Name],
+
+Thank you so much for the kind words! I'm thrilled to hear that the data visualizations were helpful and that the churn metrics came across clearly for the executive team.
+
+I really appreciate you taking the time to send this note. 
+
+Best regards,
+
+Sarah",gemma-4-31b,834.31,505,0
+3b5f58af-332b-4249-ba82-c0dc6cdb3ac8,Internal Team,"Team, I am beyond thrilled to announce that the Beta launch for Project Helios was a massive success! We hit 10k active users in the first 48 hours. I know the last two weeks were grueling and some of the bugs in the API were frustrating, but your persistence paid off. Let's celebrate this win!","That is incredible news! Thank you for the shout-out. It was definitely a stressful sprint, and those API hurdles were a challenge, but seeing the user growth makes it all worth it. I'm looking forward to the celebration—thanks for leading us through the chaos!","Subject: Re: Project Helios Beta Launch Success!
+
+Hi [Name],
+
+Thank you so much for the update! It is incredible to hear that Project Helios hit 10k active users within the first 48 hours. 
+
+We appreciate you acknowledging the hard work and the challenges we faced with the API bugs over the last two weeks. It's rewarding to see that the team's persistence led to such a successful launch.
+
+We are looking forward to celebrating this win with everyone!
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,924.47,551,0
+d359e9d4-bad9-4150-a717-5ecd21ce4f71,Internal Team,"Hey James, I just reviewed the client feedback for the Omega Account. Even though they had some concerns about the initial timeline, they specifically praised your technical leadership and your ability to pivot the architecture mid-stream. I'm so proud of how you handled this. Please send over the updated milestone map by EOD so I can lock it in with them.","Thanks, Elena! I really appreciate the feedback. It was a bit of a rollercoaster with the timeline shifts, but I'm glad the client values the architectural changes we made. I have attached the updated milestone map to this email for your review. Let me know if you need any further adjustments before you send it over.","Subject: Re: Omega Account - Client Feedback
+
+Hi [Sender's Name],
+
+Thank you so much for sharing that feedback. I really appreciate the kind words regarding the technical leadership and the architecture pivot; it means a lot to know that the effort paid off and the client is happy with the direction.
+
+I am finalizing the updated milestone map now and will have it sent over to you by the end of the day so you can lock it in with them.
+
+Best regards,
+
+James",gemma-4-31b,56494.32,555,0
+433f2466-2b40-4218-825c-e5979344b37b,Internal Team,"URGENT: Maya, I just got off the phone with the CEO and she is ecstatic about the prototype you demoed this morning. She wants to move the board presentation up to this Friday. I know this is a huge ask and the timing is terrible given the current system outages, but your work has created a massive opportunity for us. Can we make this happen?","Hi David, that's wonderful news! I'm thrilled the CEO loved the prototype. While the current system outages are definitely making things tricky, I'm confident we can pull the presentation together by Friday. I'll clear my calendar for tomorrow to focus exclusively on the board slides and the live demo environment. We're on it!","Subject: Re: URGENT: Board Presentation Update
+
+Hi [Sender's Name],
+
+Thank you for the update! It is wonderful to hear that the CEO was pleased with the prototype demo this morning.
+
+Regarding the board presentation being moved up to this Friday: yes, we can make this happen. While the current system outages are a challenge, I will prioritize the final preparations for the presentation to ensure we capitalize on this opportunity.
+
+I will send over a revised timeline and a brief list of what I need from the team to ensure everything is polished by Friday.
+
+Please let me know if there are any other specific requirements for the updated date.
+
+Best regards,
+
+Maya",gemma-4-31b,839.84,605,0
+d68e227c-d5aa-4158-92a2-960282eb62ae,Internal Team,"Hi Kevin, I wanted to reach out and say how much I appreciate you stepping in to cover the Lead Architect role while Sofia is on maternity leave. The transition has been seamless, and the team feels very supported. Your willingness to take on the extra load without hesitation is exactly why you're such a valued member of this org.","Hi Rachel, thank you for the warm note. It's been a pleasure supporting the team and ensuring Sofia's projects keep moving forward in her absence. I'm glad to hear the transition has felt seamless for everyone. I'm happy to help in any way I can to keep the momentum going!","Subject: Re: Lead Architect Role
+
+Hi [Sender's Name],
+
+Thank you so much for the kind words. I truly appreciate you taking the time to reach out; it means a lot to know that the transition has been seamless and that the team feels supported.
+
+I am more than happy to step in and help ensure everything continues to run smoothly while Sofia is away. It’s a pleasure working with such a great group of people.
+
+Please let me know if there is anything specific I can do to further support the team during this period.
+
+Best regards,
+
+Kevin",gemma-4-31b,522.89,569,0
+8f8d17eb-711c-4f76-bd4d-63d9d199bc64,Customer Support,"Hi Support Team, I'm checking in on the status of Ticket #88219 for the account migration. Why is the data sync still showing as 40% complete after 12 hours? Also, did the team verify if the custom API endpoints were mapped correctly? Lastly, can you confirm when the final cut-over is scheduled for this weekend?","Hello, thank you for reaching out. Regarding Ticket #88219, the sync slowed down due to a large volume of legacy attachments, but we have allocated more resources and it is now moving at 85%. I have personally verified with the engineering team that all custom API endpoints were mapped correctly during the staging phase. The final cut-over is scheduled for Saturday, October 14th, at 11:00 PM EST. I will keep you updated on the progress.","Subject: Update regarding your account migration - Ticket #88219
+
+Hi there,
+
+Thank you for reaching out. I have looked into the status of Ticket #88219 to provide you with the most accurate updates on your account migration.
+
+Regarding your specific questions:
+
+*   **Data Sync Progress:** I apologize for the delay in the sync process. I am currently investigating why the progress has stalled at 40% after 12 hours to determine if there is a bottleneck or a connection timeout.
+*   **Custom API Endpoints:** I am verifying with the technical team whether the custom API endpoints have been correctly mapped. I want to ensure this is fully confirmed before providing you with a definitive ""yes.""
+*   **Final Cut-over Schedule:** I am confirming the exact window for this weekend's final cut-over and will provide the specific date and time shortly.
+
+Because I want to ensure you have precise technical answers rather than estimates, I have escalated this ticket to our migration engineers for an immediate status report. I will follow up with you as soon as I have their confirmation on these three points.
+
+Thank you for your patience. Please let me know if you have any other questions in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,953.11,744,0
+c1ee1df8-ce19-4d88-b08b-b764f86e28c4,Customer Support,"To the Billing Dept: I just saw our invoice for September and I'm quite frustrated. Why was we charged for 15 seats when we only have 12 active users? Additionally, where is the credit from the August downtime that was promised? Can someone explain why these errors keep happening every month?","Dear Customer, please accept my sincerest apologies for the billing discrepancies. I have reviewed your account and found that three inactive seats were not properly decommissioned; I have removed them and issued a refund for the overcharge. I also located the pending credit from the August outage and have applied it to your current balance. To prevent this from recurring, I have flagged your account for a manual audit before each invoice is generated moving forward.","Subject: Regarding your September Invoice
+
+Dear [Customer Name],
+
+Thank you for reaching out. Please accept my sincere apologies for the frustration caused by the errors on your September invoice. I understand how important billing accuracy is, and I am committed to getting this resolved for you.
+
+To address your specific concerns:
+
+*   **Seat Count Discrepancy:** I am currently investigating why you were billed for 15 seats instead of 12. I will review your account configuration to identify the cause of this discrepancy and ensure your seat count is corrected immediately.
+*   **August Downtime Credit:** I apologize that the promised credit from August was not applied to this statement. I am locating the original agreement for this credit and will ensure it is applied to your account.
+*   **Recurring Billing Errors:** I recognize that these issues have occurred monthly, which is unacceptable. Once I have resolved the current errors, I will conduct a full audit of your billing profile to identify the root cause and implement a permanent fix to prevent this from happening again.
+
+I am working on these corrections now and will send you a revised invoice as soon as the adjustments are finalized.
+
+If you have any additional questions in the meantime, please feel free to reply to this email.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,1118.76,765,0
+8ab3c7b2-c32e-4a82-b837-ba1c021d47dd,Customer Support,"Hey Sarah, we are loving the new dashboard features! Quick couple of questions: Is there a way to export the heatmaps as PDFs for our board meeting? Also, do you know if the mobile app will support the new filtering options by Q4? One last thing, could you send over the updated documentation for the SDK?","Hi there! I'm so glad to hear you're enjoying the new dashboard. To answer your questions: Yes, you can export heatmaps as PDFs by clicking the 'Export' icon in the top right of the report view. Our roadmap does include mobile filtering support, and we are currently on track for a mid-November release. I have attached the latest SDK documentation to this email for your reference. Let me know if there's anything else you need!","Subject: Re: Dashboard features and SDK documentation
+
+Hi [Customer Name],
+
+It’s great to hear that you are enjoying the new dashboard features! I'm happy to help you with your questions.
+
+*   **Heatmap Exports:** Currently, the dashboard does not have a direct ""Export to PDF"" button for heatmaps. However, most users find that using the browser's print-to-PDF function captures the visual data perfectly for board presentations.
+*   **Mobile App Filtering:** I don't have a confirmed timeline for when the new filtering options will be integrated into the mobile app. I will check with our product team to see if this is slated for Q4 and get back to you as soon as I have a definitive answer.
+*   **SDK Documentation:** I have attached the most recent version of the SDK documentation to this email for your reference.
+
+Please let me know if there is anything else I can assist you with!
+
+Best regards,
+
+Sarah
+[Your Title]",gemma-4-31b,62198.61,660,0
+ba95a45b-22ff-4030-9fe2-0040e5a025dd,Customer Support,"Regarding the implementation of the CRM bridge: we've hit a few snags. Is the current latency spike a known issue with the v2.4 update? Also, we noticed the user permission levels aren't syncing from the master directory—is this a configuration error on our end or a bug? Finally, who is our primary point of contact for the technical handover next week?","Hello, thanks for bringing these points to our attention. The latency you're seeing is a known issue with v2.4 affecting a small subset of users; a patch is being deployed tomorrow morning to resolve this. Regarding the permissions, it appears to be a configuration mismatch in the LDAP mapping; I've attached a guide to help you align those settings. For next week's handover, your primary technical contact will be Marcus Thorne, our Senior Implementation Lead.","Subject: Re: CRM Bridge Implementation - Technical Queries
+
+Hello,
+
+Thank you for reaching out. I am sorry to hear you've encountered some snags during the implementation of the CRM bridge. Please find the answers to your questions below:
+
+*   **Latency Spikes:** I am currently checking with our engineering team to see if the latency spikes you are experiencing are a known issue associated with the v2.4 update. I will provide you with an update as soon as I have a confirmation.
+*   **User Permission Syncing:** To determine if the syncing issue from the master directory is a configuration error or a bug, we would like to review your current setup. Could you please send over your configuration logs or grant our team temporary access to your environment for a quick audit?
+*   **Technical Handover:** I will confirm the primary point of contact for your handover next week and introduce you via email by the end of the business day.
+
+If you have any other questions in the meantime, please feel free to ask.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,1360.55,707,0
+646ea77b-8eb7-430a-9954-47aad5339517,Customer Support,"Hi Team, I'm reviewing the quarterly usage report for the Enterprise plan. Could you clarify why the storage limit is showing as 'Near Capacity' when we only used 60% of our allotment? Also, are there any upcoming price changes for the 2024 renewal we should be aware of? Lastly, can we add another admin user to the billing portal?","Hello, I'd be happy to clarify those points for you. The 'Near Capacity' alert was triggered by a temporary cache buildup during your last backup cycle, which has since been cleared, and your actual usage is indeed at 60%. Regarding the 2024 renewal, our pricing will remain stable for existing Enterprise clients. As for the billing portal, please send me the name and email address of the person you'd like to add, and I will set up their admin access immediately.","Subject: Regarding your Enterprise plan usage and renewal
+
+Hi there,
+
+Thank you for reaching out. I would be happy to clarify these points regarding your Enterprise account.
+
+To address your questions:
+
+*   **Storage Limit Status:** I would like to investigate why your report is showing ""Near Capacity"" despite only 60% usage. To ensure I provide the most accurate explanation, I am escalating this to our technical team to check for any reporting discrepancies or cached data. I will update you as soon as I have an answer.
+*   **2024 Renewal Pricing:** I do not have any information regarding upcoming price changes for the 2024 renewal at this time. I will check with our billing department to see if there are any planned adjustments and get back to you shortly.
+*   **Adding a Billing Admin:** Yes, you can add another admin user to the billing portal. You can do this by navigating to **Settings > Billing > User Management** and inviting the new user via their email address.
+
+I will follow up with you regarding the storage status and pricing as soon as I have more information. Please let me know if there is anything else I can assist you with in the meantime.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,2651.93,741,0
+38f69b88-0654-466e-b96b-b388804a850b,Thank You,"Hi Sarah, I just wanted to send a quick note to say thank you so much for the mentorship over the last quarter. Your guidance on the Q3 Project Roadmap really helped me feel more confident during the board presentation yesterday. I'm thrilled with the outcome!","Hi Mark, thank you for the kind words! It was truly a pleasure working with you on the roadmap. You put in a tremendous amount of effort, and it clearly showed in your presentation—the board was very impressed. I'm glad I could support you, and I look forward to seeing your continued growth here.","Subject: Re: Thank you!
+
+Hi [Customer Name],
+
+Thank you so much for your kind note! I am thrilled to hear that the board presentation went well and that you're happy with the outcome.
+
+It was a pleasure working with you on the Q3 Project Roadmap. You put in a great deal of hard work, and it clearly paid off in your confidence and delivery yesterday.
+
+I look forward to seeing your continued success. Please don't hesitate to reach out if there is anything else I can support you with!
+
+Best regards,
+
+Sarah",gemma-4-31b,2995.29,543,0
+0380c195-607e-4ad3-b810-0abb9f953713,Thank You,"Dear IT Support, thank you for finally resolving the connectivity issues with my VPN (Ticket #88219). While it took much longer than I expected and caused some delays in my reports, I'm just happy that I can finally access the secure server again. Thanks for the fix.","Dear James, you're very welcome. I sincerely apologize for the length of time it took to resolve this ticket and for the frustration the delays caused with your reporting. We've updated our internal documentation to ensure this specific VPN conflict is handled faster in the future. Thank you for your patience.","Subject: Re: VPN Connectivity Issues - Ticket #88219
+
+Dear [Customer Name],
+
+Thank you for your email. I am glad to hear that your VPN connectivity is now restored and that you can access the secure server again.
+
+Please accept my sincere apologies for the time it took to resolve this issue and for the resulting delays in your reporting. We appreciate your patience while we worked toward a fix.
+
+If you encounter any further issues or have additional questions, please don't hesitate to reach out.
+
+Best regards,
+
+[Your Name]
+IT Support Team",gemma-4-31b,3385.0,554,0
+c2b270c8-d9f4-49cf-933e-080a317f285b,Thank You,"Hey Julian, thank you for the feedback on my draft for the Client X proposal. I'll be honest, I was a bit discouraged by the amount of red ink, but your specific suggestions on the pricing section are actually exactly what I needed. I'm excited to get this finalized!","Hey Elena, I'm glad the feedback was helpful! Please don't be discouraged by the edits—your core ideas were strong, and we just needed to align the language with Client X's specific preferences. I'm confident the final version will be a winner. Let me know if you want to hop on a quick call to polish the final slide.","Subject: Re: Client X Proposal Draft
+
+Hi [Customer Name],
+
+You are very welcome! Please don't be discouraged by the edits; the draft provided a great foundation, and the ""red ink"" is simply part of the process to ensure we deliver the strongest possible proposal to Client X.
+
+I'm glad to hear the suggestions for the pricing section were helpful. I have full confidence that the final version will be excellent.
+
+I look forward to seeing the finalized draft. Please let me know if you have any other questions as you wrap it up!
+
+Best regards,
+
+Julian",gemma-4-31b,4118.68,556,0
+c6185dad-0d3c-4e2e-8ab7-b695aac661f0,Thank You,"Hi Team, thank you for the emergency patch released at 2 AM last night to fix the checkout bug (Incident #404-B). I know it was a grueling shift for everyone involved, but the site is stable now and our conversion rate is bouncing back. I really appreciate the sacrifice.","Hi Marcus, thank you for acknowledging the effort. It was a long night, but we're all relieved that the checkout process is functioning correctly again and that the impact on customers was minimized. We'll be conducting a post-mortem on Friday to ensure we prevent this from happening again. Thanks for the support!","Subject: Re: Incident #404-B - Checkout Bug Fix
+
+Hi [Customer Name],
+
+Thank you so much for your kind words. We truly appreciate you acknowledging the team's efforts to resolve the checkout bug and get the site stable again.
+
+It is great to hear that your conversion rates are bouncing back. We know how critical the checkout process is to your business, and we are glad we could get everything back on track quickly.
+
+I will be sure to share your feedback with the engineers and support staff who worked through the night—it will mean a lot to them.
+
+Please don't hesitate to reach out if you notice anything else or if there is anything further we can assist you with.
+
+Best regards,
+
+[Your Name]
+Customer Support Team",gemma-4-31b,63591.2,599,0
+735df700-23a8-47d1-a76a-8ca58d7f68ae,Thank You,"Hello Karen, thank you for sending over the updated employee handbook. I've received the PDF. I haven't had a chance to read through the new policy changes yet, but I appreciate you keeping me in the loop.","Hello David, you're welcome! No rush at all on reading through it. Whenever you have a moment over the next two weeks, please just sign the acknowledgement form on the last page and send it back to me. If you have any questions about the new policies, feel free to reach out.","Subject: Re: Updated Employee Handbook
+
+Hello,
+
+You are very welcome. Thank you for confirming that you received the PDF.
+
+Please take your time reviewing the new policy changes. If you have any questions or need clarification on any of the updates once you've had a chance to read through them, feel free to reach out.
+
+Best regards,
+
+Karen",gemma-4-31b,755.99,487,0

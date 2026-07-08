@@ -1,0 +1,391 @@
+{
+  "timestamp": "2026-07-08T04:26:55.220276",
+  "total_samples": 50,
+  "avg_composite_score": 65.45,
+  "median_composite_score": 70.42,
+  "std_composite_score": 16.58,
+  "min_composite_score": 23.87,
+  "max_composite_score": 85.83,
+  "avg_scores": {
+    "semantic_similarity": 0.5002,
+    "intent_coverage": 0.84,
+    "completeness": 0.4908,
+    "tone": 0.56,
+    "grounding": 0.5,
+    "hallucination": 0.838,
+    "readability": 0.8386,
+    "llm_judge": 0.641,
+    "business_rules": 0.976
+  },
+  "median_scores": {
+    "semantic_similarity": 0.5082,
+    "intent_coverage": 1.0,
+    "completeness": 0.375,
+    "tone": 0.6667,
+    "grounding": 0.5,
+    "hallucination": 1.0,
+    "readability": 0.8423,
+    "llm_judge": 0.85,
+    "business_rules": 1.0
+  },
+  "category_scores": {
+    "Scheduling": {
+      "count": 5.0,
+      "avg_score": 79.03,
+      "min_score": 72.57,
+      "max_score": 83.46
+    },
+    "HR": {
+      "count": 5.0,
+      "avg_score": 72.5,
+      "min_score": 41.13,
+      "max_score": 81.9
+    },
+    "Billing": {
+      "count": 5.0,
+      "avg_score": 70.45,
+      "min_score": 52.73,
+      "max_score": 81.8
+    },
+    "Complaint": {
+      "count": 5.0,
+      "avg_score": 69.88,
+      "min_score": 64.66,
+      "max_score": 73.14
+    },
+    "Partnership": {
+      "count": 5.0,
+      "avg_score": 70.13,
+      "min_score": 55.32,
+      "max_score": 82.09
+    },
+    "Logistics": {
+      "count": 5.0,
+      "avg_score": 67.49,
+      "min_score": 41.12,
+      "max_score": 81.94
+    },
+    "Technical Issue": {
+      "count": 5.0,
+      "avg_score": 78.83,
+      "min_score": 69.07,
+      "max_score": 84.08
+    },
+    "Internal Team": {
+      "count": 5.0,
+      "avg_score": 42.48,
+      "min_score": 26.36,
+      "max_score": 85.83
+    },
+    "Customer Support": {
+      "count": 5.0,
+      "avg_score": 47.82,
+      "min_score": 23.87,
+      "max_score": 55.25
+    },
+    "Thank You": {
+      "count": 5.0,
+      "avg_score": 55.86,
+      "min_score": 53.81,
+      "max_score": 58.36
+    }
+  },
+  "best_examples": [
+    {
+      "id": "f45b6d85-16a4-40b8-a953-830114937664",
+      "category": "Internal Team",
+      "score": 85.83,
+      "email_preview": "Hi Sarah, I just saw the final Q3 performance report you put together for the executive team. The da"
+    },
+    {
+      "id": "7a0dfaf2-b2ea-4a96-af2a-4f8a409c363a",
+      "category": "Technical Issue",
+      "score": 84.08,
+      "email_preview": "Hi IT Support,\n\nI'm writing to report a persistent issue with my workstation (Asset ID: WS-9921) tha"
+    },
+    {
+      "id": "d6561065-143e-4140-904a-a71f8ae700ff",
+      "category": "Scheduling",
+      "score": 83.46,
+      "email_preview": "Hi Sarah, regarding the Q3 review for the CloudSync implementation, we need to touch base soon. Let "
+    },
+    {
+      "id": "c561d948-4b50-41a2-9045-12897f43a134",
+      "category": "Scheduling",
+      "score": 82.85,
+      "email_preview": "Hey Jamie, I think we're almost ready for the final walkthrough of the site build. We just need to a"
+    },
+    {
+      "id": "39b8a05a-133e-4c9a-b650-f13bfbb52840",
+      "category": "Partnership",
+      "score": 82.09,
+      "email_preview": "Hi Sarah, I'm from CloudScale and would love to discuss a potential API integration partnership for "
+    },
+    {
+      "id": "a43feba0-dfa2-4e2e-a3f5-0b568f190375",
+      "category": "Logistics",
+      "score": 81.94,
+      "email_preview": "URGENT: Regarding Shipment #LX-4401. We've encountered a major issue at the port; the container has "
+    },
+    {
+      "id": "330662c8-b56c-4e07-ba88-ff90ea8ee693",
+      "category": "HR",
+      "score": 81.9,
+      "email_preview": "Hi James, thank you so much for the update regarding my interview status for the Marketing Lead posi"
+    },
+    {
+      "id": "900b4fe5-eed4-4c26-bfe7-f246a61dc4a4",
+      "category": "Billing",
+      "score": 81.8,
+      "email_preview": "Hey team, we need to update the credit card on file for our monthly subscription immediately. Our cu"
+    },
+    {
+      "id": "2063959e-9894-4419-a733-bc2a85d94f40",
+      "category": "Partnership",
+      "score": 81.37,
+      "email_preview": "We love the new product direction, but the current revenue share split feels a bit unfair to us. Can"
+    },
+    {
+      "id": "1e05dcc1-d483-4e72-8d4c-4dd30754ee99",
+      "category": "Scheduling",
+      "score": 81.3,
+      "email_preview": "Regarding the maintenance window for the server migration (Ticket #4402), we might need to shift thi"
+    }
+  ],
+  "worst_examples": [
+    {
+      "id": "c2b270c8-d9f4-49cf-933e-080a317f285b",
+      "category": "Thank You",
+      "score": 53.81,
+      "email_preview": "Hey Julian, thank you for the feedback on my draft for the Client X proposal. I'll be honest, I was ",
+      "weaknesses": [
+        "Low semantic similarity to the reference reply.",
+        "Not all questions or requests are fully answered.",
+        "Tone mismatch with the expected reply style.",
+        "Below-average quality as assessed by the LLM judge.",
+        "Factual inconsistencies with source materials."
+      ]
+    },
+    {
+      "id": "c093e8b6-794f-4b5f-8589-9dbfe1fa553f",
+      "category": "Billing",
+      "score": 52.73,
+      "email_preview": "Hi Support, I'm looking at my latest invoice and the total is higher than what we agreed upon in the",
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered."
+      ]
+    },
+    {
+      "id": "ba95a45b-22ff-4030-9fe2-0040e5a025dd",
+      "category": "Customer Support",
+      "score": 50.9,
+      "email_preview": "Regarding the implementation of the CRM bridge: we've hit a few snags. Is the current latency spike ",
+      "weaknesses": [
+        "Low semantic similarity to the reference reply.",
+        "Not all questions or requests are fully answered.",
+        "Tone mismatch with the expected reply style.",
+        "Potential hallucinated or fabricated claims detected. (penalty: 1 hallucination(s) detected.)",
+        "Below-average quality as assessed by the LLM judge.",
+        "Factual inconsistencies with source materials."
+      ]
+    },
+    {
+      "id": "a294de0e-62cd-4bcf-946c-36496ac229c7",
+      "category": "HR",
+      "score": 41.13,
+      "email_preview": "Hi Chloe, thank you for the offer! I am so excited about the possibility of joining the engineering ",
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Some business rules are not met. (penalty: 1 business rule(s) failed.)"
+      ]
+    },
+    {
+      "id": "3d8ff6c0-0065-401f-8737-5f87d7088a6d",
+      "category": "Logistics",
+      "score": 41.12,
+      "email_preview": "Hi there, we are planning the pickup for the bulk textile order (PO #T-202) this Friday. We noticed ",
+      "weaknesses": [
+        "Low semantic similarity to the reference reply.",
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Below-average quality as assessed by the LLM judge.",
+        "Some business rules are not met. (penalty: 1 business rule(s) failed.)"
+      ]
+    },
+    {
+      "id": "433f2466-2b40-4218-825c-e5979344b37b",
+      "category": "Internal Team",
+      "score": 40.67,
+      "email_preview": "URGENT: Maya, I just got off the phone with the CEO and she is ecstatic about the prototype you demo",
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Tone mismatch with the expected reply style.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge.",
+        "Some business rules are not met. (penalty: 1 business rule(s) failed.)"
+      ]
+    },
+    {
+      "id": "d68e227c-d5aa-4158-92a2-960282eb62ae",
+      "category": "Internal Team",
+      "score": 30.62,
+      "email_preview": "Hi Kevin, I wanted to reach out and say how much I appreciate you stepping in to cover the Lead Arch",
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge."
+      ]
+    },
+    {
+      "id": "d359e9d4-bad9-4150-a717-5ecd21ce4f71",
+      "category": "Internal Team",
+      "score": 28.94,
+      "email_preview": "Hey James, I just reviewed the client feedback for the Omega Account. Even though they had some conc",
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge."
+      ]
+    },
+    {
+      "id": "3b5f58af-332b-4249-ba82-c0dc6cdb3ac8",
+      "category": "Internal Team",
+      "score": 26.36,
+      "email_preview": "Team, I am beyond thrilled to announce that the Beta launch for Project Helios was a massive success",
+      "weaknesses": [
+        "Low semantic similarity to the reference reply.",
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Below-average quality as assessed by the LLM judge."
+      ]
+    },
+    {
+      "id": "8f8d17eb-711c-4f76-bd4d-63d9d199bc64",
+      "category": "Customer Support",
+      "score": 23.87,
+      "email_preview": "Hi Support Team, I'm checking in on the status of Ticket #88219 for the account migration. Why is th",
+      "weaknesses": [
+        "Some intents from the email are not addressed.",
+        "Not all questions or requests are fully answered.",
+        "Tone mismatch with the expected reply style.",
+        "Potential hallucinated or fabricated claims detected.",
+        "Some business rules are not met. (penalty: 1 business rule(s) failed.)",
+        "Factual inconsistencies with source materials."
+      ]
+    }
+  ],
+  "score_distribution": [
+    83.46,
+    74.95,
+    81.3,
+    72.57,
+    82.85,
+    79.61,
+    81.9,
+    79.02,
+    41.13,
+    80.86,
+    52.73,
+    81.8,
+    70.6,
+    75.94,
+    71.17,
+    70.16,
+    70.25,
+    73.14,
+    64.66,
+    71.19,
+    82.09,
+    55.32,
+    65.52,
+    81.37,
+    66.33,
+    73.75,
+    81.94,
+    68.83,
+    71.8,
+    41.12,
+    84.08,
+    69.07,
+    80.62,
+    80.07,
+    80.31,
+    85.83,
+    26.36,
+    28.94,
+    40.67,
+    30.62,
+    23.87,
+    55.25,
+    55.03,
+    50.9,
+    54.05,
+    58.36,
+    55.61,
+    53.81,
+    56.09,
+    55.44
+  ],
+  "common_weaknesses": [
+    {
+      "weakness": "not all questions or requests are fully answered.",
+      "count": 27,
+      "percentage": 54.0
+    },
+    {
+      "weakness": "low semantic similarity to the reference reply.",
+      "count": 23,
+      "percentage": 46.0
+    },
+    {
+      "weakness": "below-average quality as assessed by the llm judge.",
+      "count": 14,
+      "percentage": 28.0
+    },
+    {
+      "weakness": "tone mismatch with the expected reply style.",
+      "count": 11,
+      "percentage": 22.0
+    },
+    {
+      "weakness": "factual inconsistencies with source materials.",
+      "count": 10,
+      "percentage": 20.0
+    },
+    {
+      "weakness": "some intents from the email are not addressed.",
+      "count": 8,
+      "percentage": 16.0
+    },
+    {
+      "weakness": "potential hallucinated or fabricated claims detected.",
+      "count": 7,
+      "percentage": 14.0
+    },
+    {
+      "weakness": "some business rules are not met. (penalty: 1 business rule(s) failed.)",
+      "count": 6,
+      "percentage": 12.0
+    },
+    {
+      "weakness": "potential hallucinated or fabricated claims detected. (penalty: 1 hallucination(",
+      "count": 4,
+      "percentage": 8.0
+    },
+    {
+      "weakness": "tone mismatch with the expected reply style. (penalty: large tone mismatch on: f",
+      "count": 3,
+      "percentage": 6.0
+    },
+    {
+      "weakness": "potential hallucinated or fabricated claims detected. (penalty: 2 hallucination(",
+      "count": 1,
+      "percentage": 2.0
+    }
+  ]
+}
