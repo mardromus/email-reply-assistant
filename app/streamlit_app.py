@@ -435,19 +435,29 @@ if page == "🚀 Generate Response":
                                 st.markdown(f"*Reply:* {ex.get('reply_text', '')[:200]}...")
                                 st.markdown("---")
                         
-                        # Evaluation (if reference provided)
-                        if reference_input.strip():
-                            st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
-                            st.markdown("### 📊 Evaluation")
-                            
-                            with st.spinner("Evaluating response quality..."):
-                                evaluator = load_evaluator()
-                                if evaluator:
-                                    eval_result = evaluator.evaluate_single(
-                                        email=email_input,
-                                        generated=result.generated_response,
-                                        reference=reference_input,
-                                    )
+                        # Evaluation
+                        st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+                        st.markdown("### 📊 Evaluation")
+                        
+                        with st.spinner("Evaluating response quality..."):
+                            evaluator = load_evaluator()
+                            if evaluator:
+                                # Use user reference, or fallback to the top retrieved reply as proxy ground truth
+                                ref_text = reference_input.strip()
+                                if not ref_text and result.retrieved_examples:
+                                    ref_text = result.retrieved_examples[0].get('reply_text', '')
+                                
+                                context_snippets = [
+                                    f"Historical Email: {ex.get('email_text', '')}\nHistorical Reply: {ex.get('reply_text', '')}" 
+                                    for ex in result.retrieved_examples
+                                ]
+                                
+                                eval_result = evaluator.evaluate_single(
+                                    email=email_input,
+                                    generated=result.generated_response,
+                                    reference=ref_text,
+                                    context=context_snippets,
+                                )
                                     
                                     # Gauge chart
                                     fig = create_gauge_chart(eval_result.composite_score)
